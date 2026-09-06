@@ -2,11 +2,11 @@ import React from 'react';
 import { Check, X } from 'lucide-react';
 
 interface ProsConsProps {
-  pros: string[];
-  cons: string[];
+  pros?: string[];
+  cons?: string[];
 }
 
-export function ProsCons({ pros, cons }: ProsConsProps) {
+export function ProsCons({ pros = [], cons = [] }: ProsConsProps) {
   return (
     <div className="my-8 grid grid-cols-1 md:grid-cols-2 gap-4">
       <div className="rounded-xl border border-botanical-accent/30 bg-forest-800/80 p-5">

@@ -6,10 +6,10 @@ interface StepItem {
 }
 
 interface StepsProps {
-  steps: StepItem[];
+  steps?: StepItem[];
 }
 
-export function Steps({ steps }: StepsProps) {
+export function Steps({ steps = [] }: StepsProps) {
   return (
     <div className="my-10 space-y-6">
       {steps.map((step, idx) => (

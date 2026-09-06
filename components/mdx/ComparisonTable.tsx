@@ -1,12 +1,12 @@
 import React from 'react';
 
 interface ComparisonTableProps {
-  headers: string[];
-  rows: string[][];
+  headers?: string[];
+  rows?: string[][];
   caption?: string;
 }
 
-export function ComparisonTable({ headers, rows, caption }: ComparisonTableProps) {
+export function ComparisonTable({ headers = [], rows = [], caption }: ComparisonTableProps) {
   return (
     <div className="my-8 overflow-hidden rounded-xl border border-forest-700/60 bg-forest-850 shadow-md">
       {caption && (

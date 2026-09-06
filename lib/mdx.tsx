@@ -11,6 +11,10 @@ export function RenderMDX({ source }: RenderMdxProps) {
     <MDXRemote
       source={source}
       components={mdxComponents}
+      options={{
+        blockJS: false,
+        blockDangerousJS: true,
+      }}
     />
   );
 }

@@ -9,11 +9,11 @@ interface FAQItem {
 }
 
 interface FAQProps {
-  items: FAQItem[];
+  items?: FAQItem[];
   title?: string;
 }
 
-export function FAQ({ items, title = 'Frequently Asked Questions' }: FAQProps) {
+export function FAQ({ items = [], title = 'Frequently Asked Questions' }: FAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const toggle = (idx: number) => {
