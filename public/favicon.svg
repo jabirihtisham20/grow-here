@@ -1,0 +1,20 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="50" fill="#132B20" />
+    
+    <g transform="translate(10, 10) scale(0.8)">
+      <!-- G Letterform -->
+      <path d="M 44 26 C 41 24.5 37 23.5 32.5 23.5 C 20.5 23.5 14 33.5 14 50 C 14 66.5 21 76.5 32.5 76.5 C 38 76.5 42.5 74.5 45.5 71.5" 
+            stroke="#FAF7F2" stroke-width="6" stroke-linecap="round" />
+      <path d="M 45 56 L 45 72" stroke="#FAF7F2" stroke-width="5.5" stroke-linecap="round" />
+      <path d="M 34 56 L 47 56" stroke="#FAF7F2" stroke-width="5" stroke-linecap="round" />
+
+      <!-- H Letterform -->
+      <path d="M 48 37 L 48 76" stroke="#FAF7F2" stroke-width="5.5" stroke-linecap="round" />
+      <path d="M 48 56 L 68 56" stroke="#FAF7F2" stroke-width="5" stroke-linecap="round" />
+      <path d="M 68 28 L 68 76" stroke="#FAF7F2" stroke-width="6" stroke-linecap="round" />
+
+      <!-- Leaf Accent -->
+      <path d="M 57 53 C 58 45 64 34 76 26 C 76 36 71 45 61 51 Z" fill="#7C9A82" />
+      <path d="M 56 54 Q 65 42 75 27" stroke="#FAF7F2" stroke-width="1.5" stroke-linecap="round" opacity="0.9" />
+    </g>
+  </svg>

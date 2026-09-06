@@ -1,0 +1,28 @@
+# Grow Here
+> Practical ideas for greener spaces, smarter homes, lower energy use, and mindful everyday living.
+
+Grow Here (https://growhere.online) is an independent digital publication and practical field guide focused on actionable sustainability, nature-connected living, small-space efficiency, and intentional lifestyle habits. It transforms complex environmental and organizational goals into realistic, bite-sized routines that work in everyday apartments and houses.
+
+## Core Content Pillars
+
+- Plants & Gardening (https://growhere.online/grow): Practical gardening advice for windowsills, balconies, apartments, and small outdoor spaces. Covers low-light indoor plants, edible balcony herbs, countertop microgreens, mini container gardens, and beginner hydroponic systems.
+- Home & Organization (https://growhere.online/space): Functional design, decluttering methodologies (such as the 80/20 method), vertical wall storage systems, and small kitchen organization that maximize usable living space without feeling sterile.
+- Energy & Savings (https://growhere.online/energy): Clear, hype-free guidance on cutting household electricity waste, residential rooftop solar economics in 2026, energy-efficient induction and heat pump appliances, home battery storage, and smart thermostat programming.
+- Mindful Living (https://growhere.online/life): Intentional lifestyle philosophy, digital minimalism, structured 7-day screen-time detoxes, slow-living habits for busy routines, mindful morning rituals, and underconsumption principles.
+
+## Key Pages & Pathways
+
+- Homepage: https://growhere.online
+- Latest Stories: https://growhere.online/latest
+- Search Directory: https://growhere.online/search
+- About Grow Here: https://growhere.online/about
+- Editorial Desk & Contact: https://growhere.online/contact
+- Editorial Standards & Sourcing: https://growhere.online/editorial-policy
+- Privacy Policy: https://growhere.online/privacy-policy
+- Terms & Conditions: https://growhere.online/terms-and-conditions
+
+## Machine-Readable Feeds & Discovery
+
+- XML Sitemap: https://growhere.online/sitemap.xml
+- RSS 2.0 Feed: https://growhere.online/feed.xml
+- Robots Directive: https://growhere.online/robots.txt

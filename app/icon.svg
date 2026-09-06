@@ -1,0 +1,49 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+    <rect width="100" height="100" rx="26" fill="#132B20" />
+    
+    <!-- Outer Squircle with smooth organic curvature -->
+    <rect x="7" y="7" width="86" height="86" rx="24" ry="24" stroke="#FAF7F2" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- G & H Interlocking Monogram -->
+    <g transform="translate(0, 0)">
+      <!-- G Letterform (Serif style with high stroke modulation) -->
+      <!-- G Top Hook & Left Curve -->
+      <path d="M 44 26 C 41 24.5 37 23.5 32.5 23.5 C 20.5 23.5 14 33.5 14 50 C 14 66.5 21 76.5 32.5 76.5 C 38 76.5 42.5 74.5 45.5 71.5" 
+            stroke="#FAF7F2" stroke-width="5.2" stroke-linecap="round" />
+      
+      <!-- G Top Serif -->
+      <path d="M 43 23 L 45 28" stroke="#FAF7F2" stroke-width="3" stroke-linecap="round" />
+      
+      <!-- G Vertical Stem / Spur -->
+      <path d="M 45 56 L 45 72" stroke="#FAF7F2" stroke-width="4.8" stroke-linecap="round" />
+      
+      <!-- G Crossbar -->
+      <path d="M 34 56 L 47 56" stroke="#FAF7F2" stroke-width="4.5" stroke-linecap="round" />
+
+      <!-- H Letterform (Interlocking on the right) -->
+      <!-- H Left Vertical Stem (shares/intertwines near G spur) -->
+      <path d="M 48 37 L 48 76" stroke="#FAF7F2" stroke-width="4.8" stroke-linecap="round" />
+      <!-- H Left Top Serif -->
+      <path d="M 45 37 L 51 37" stroke="#FAF7F2" stroke-width="3" stroke-linecap="round" />
+      <!-- H Left Bottom Serif -->
+      <path d="M 45 76 L 51 76" stroke="#FAF7F2" stroke-width="3" stroke-linecap="round" />
+
+      <!-- H Crossbar -->
+      <path d="M 48 56 L 68 56" stroke="#FAF7F2" stroke-width="4" stroke-linecap="round" />
+
+      <!-- H Right Vertical Stem -->
+      <path d="M 68 28 L 68 76" stroke="#FAF7F2" stroke-width="5" stroke-linecap="round" />
+      <!-- H Right Top Serif -->
+      <path d="M 64 28 L 73 28" stroke="#FAF7F2" stroke-width="3.2" stroke-linecap="round" />
+      <!-- H Right Bottom Serif -->
+      <path d="M 63 76 L 74 76" stroke="#FAF7F2" stroke-width="3.2" stroke-linecap="round" />
+
+      <!-- Botanical Sprouting Leaf (Sage Green accent emerging from crossbar) -->
+      <!-- Leaf body -->
+      <path d="M 57 53 C 58 45 64 34 76 26 C 76 36 71 45 61 51 Z" 
+            fill="#7C9A82" />
+      <!-- Leaf delicate stem / central vein -->
+      <path d="M 56 54 Q 65 42 75 27" 
+            stroke="#FAF7F2" stroke-width="1.2" stroke-linecap="round" opacity="0.85" />
+    </g>
+  </svg>
