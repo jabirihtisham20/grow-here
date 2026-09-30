@@ -2,12 +2,10 @@ import { config, fields, collection, singleton } from '@keystatic/core';
 import { block, wrapper } from '@keystatic/core/content-components';
 
 const useGitHub =
-  process.env.KEYSTATIC_STORAGE === 'github' ||
-  (process.env.NODE_ENV === 'production' &&
-    Boolean(process.env.KEYSTATIC_SECRET) &&
-    process.env.KEYSTATIC_STORAGE !== 'local');
+  process.env.NODE_ENV === 'production' ||
+  process.env.NEXT_PUBLIC_KEYSTATIC_STORAGE === 'github';
 
-const repoOwner = process.env.NEXT_PUBLIC_KEYSTATIC_GITHUB_REPO_OWNER || 'growhere';
+const repoOwner = process.env.NEXT_PUBLIC_KEYSTATIC_GITHUB_REPO_OWNER || 'jabirihtisham20';
 const repoName = process.env.NEXT_PUBLIC_KEYSTATIC_GITHUB_REPO_NAME || 'grow-here';
 
 const customContentComponents = {

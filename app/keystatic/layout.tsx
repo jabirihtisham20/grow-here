@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -124,7 +125,7 @@ export default function KeystaticLayout({
         </div>
 
         {/* Right: back to site link */}
-        <a
+        <Link
           href="/"
           style={{
             display: 'inline-flex',
@@ -157,7 +158,7 @@ export default function KeystaticLayout({
             <path d="M19 12H5M12 19l-7-7 7-7" />
           </svg>
           <span className="hidden sm:inline">Back to Site</span>
-        </a>
+        </Link>
       </header>
 
       {/* ── Keystatic App Container with CSS Theme Overrides ── */}
