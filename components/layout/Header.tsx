@@ -54,7 +54,7 @@ export function Header({ searchIndex }: HeaderProps = {}) {
     { name: 'Home & Organization', href: '/space' },
     { name: 'Energy & Savings', href: '/energy' },
     { name: 'Mindful Living', href: '/life' },
-    { name: 'Latest', href: '/latest' },
+    { name: 'Latest', href: '/blog' },
     { name: 'About', href: '/about' },
   ];
 

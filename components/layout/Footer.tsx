@@ -53,7 +53,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/latest" className="hover:text-cream-200 transition-colors">
+                <Link href="/blog" className="hover:text-cream-200 transition-colors">
                   Latest Stories
                 </Link>
               </li>

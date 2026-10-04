@@ -11,7 +11,9 @@ const nextConfig = {
   compress: true,
   images: {
     formats: ['image/avif', 'image/webp'],
-    minimumCacheTTL: 31536000,
+    // Keystatic can replace an image at the same public path. Keep optimized
+    // derivatives short-lived so edits are visible promptly after deployment.
+    minimumCacheTTL: 60,
     remotePatterns: [
       {
         protocol: 'https',
@@ -29,7 +31,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
+            value: 'public, max-age=0, must-revalidate',
           },
         ],
       },

@@ -14,6 +14,7 @@ export function ArticleAuthor({ author }: ArticleAuthorProps) {
           src={author.avatar}
           alt={author.name}
           fill
+          unoptimized={author.avatar.startsWith('http')}
           sizes="64px"
           className="object-cover"
         />

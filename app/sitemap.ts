@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts().filter((post) => !post.noindex);
 
   const postEntries: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `${SITE_CONFIG.url}/${post.category}/${post.slug}`,
+    url: `${SITE_CONFIG.url}/blog/${post.slug}`,
     lastModified: new Date(post.updatedAt || post.publishedAt),
     changeFrequency: 'monthly',
     priority: post.featured ? 0.9 : 0.8,
@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/energy',
     '/life',
     '/latest',
+    '/blog',
     '/search',
     '/about',
     '/contact',

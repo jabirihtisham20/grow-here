@@ -102,14 +102,14 @@ export default function LifeCategoryPage() {
 
             <article className="group rounded-3xl border border-forest-750/80 bg-forest-900 overflow-hidden grid grid-cols-1 lg:grid-cols-12 shadow-xl hover:border-forest-600 transition-all duration-300">
               <div className="lg:col-span-7 relative min-h-[300px] sm:min-h-[380px] bg-forest-850">
-                <Image
+                {featured.image && <Image
                   src={featured.image}
                   alt={featured.imageAlt}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 60vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
+                />}
               </div>
               <div className="lg:col-span-5 p-8 sm:p-10 flex flex-col justify-between">
                 <div>
@@ -123,7 +123,7 @@ export default function LifeCategoryPage() {
                   </div>
 
                   <h2 className="font-serif text-2xl sm:text-3xl font-medium text-cream-100 group-hover:text-warm-accent transition-colors leading-snug">
-                    <Link href={`/life/${featured.slug}`}>
+                    <Link href={`/blog/${featured.slug}`}>
                       {featured.title}
                     </Link>
                   </h2>
@@ -136,7 +136,7 @@ export default function LifeCategoryPage() {
                 <div className="mt-6 pt-5 border-t border-forest-800 flex items-center justify-between">
                   <span className="text-xs text-botanical-muted/80">{formatDate(featured.publishedAt)}</span>
                   <Link
-                    href={`/life/${featured.slug}`}
+                    href={`/blog/${featured.slug}`}
                     className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-warm-accent text-forest-950 text-xs font-semibold uppercase tracking-wider hover:bg-warm-gold transition-colors"
                   >
                     <span>Read Guide</span>

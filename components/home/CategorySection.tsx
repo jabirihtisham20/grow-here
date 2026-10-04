@@ -74,14 +74,14 @@ export function CategorySection({
           {/* Lead Card (7 cols) */}
           <div className="lg:col-span-7">
             <article className="group rounded-2xl border border-forest-750/80 bg-forest-850 overflow-hidden shadow-xl hover:border-forest-600 transition-all duration-300">
-              <Link href={`/${leadPost.category}/${leadPost.slug}`} className="block relative aspect-[16/10] overflow-hidden bg-forest-800">
-                <Image
+              <Link href={`/blog/${leadPost.slug}`} className="block relative aspect-[16/10] overflow-hidden bg-forest-800">
+                {leadPost.image && <Image
                   src={leadPost.image}
                   alt={leadPost.imageAlt}
                   fill
                   sizes="(max-width: 1024px) 100vw, 60vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
+                />}
                 <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-forest-950/80 backdrop-blur-md border border-forest-700 text-xs font-semibold text-warm-accent uppercase tracking-wider">
                   Featured in {category}
                 </div>
@@ -97,7 +97,7 @@ export function CategorySection({
                 </div>
 
                 <h3 className="font-serif text-2xl sm:text-3xl font-medium text-cream-100 group-hover:text-warm-accent transition-colors leading-snug">
-                  <Link href={`/${leadPost.category}/${leadPost.slug}`}>
+                  <Link href={`/blog/${leadPost.slug}`}>
                     {leadPost.title}
                   </Link>
                 </h3>
@@ -113,6 +113,7 @@ export function CategorySection({
                         src={leadPost.author.avatar}
                         alt={leadPost.author.name}
                         fill
+                        unoptimized={leadPost.author.avatar.startsWith('http')}
                         sizes="28px"
                         className="object-cover"
                       />
@@ -121,7 +122,7 @@ export function CategorySection({
                   </div>
 
                   <Link
-                    href={`/${leadPost.category}/${leadPost.slug}`}
+                    href={`/blog/${leadPost.slug}`}
                     className="inline-flex items-center gap-1.5 text-xs text-botanical-accent group-hover:text-warm-accent font-semibold uppercase tracking-wider"
                   >
                     <span>Read Guide</span>
@@ -140,13 +141,13 @@ export function CategorySection({
                 className="group flex gap-4 rounded-2xl border border-forest-750/60 bg-forest-850/60 p-4 hover:border-forest-600 hover:bg-forest-850 transition-all duration-300"
               >
                 <div className="relative w-28 h-24 rounded-xl overflow-hidden flex-shrink-0 bg-forest-800">
-                  <Image
+                  {post.image && <Image
                     src={post.image}
                     alt={post.imageAlt}
                     fill
                     sizes="120px"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
+                  />}
                 </div>
                 <div className="flex flex-col justify-between flex-1 py-0.5">
                   <div>
@@ -154,7 +155,7 @@ export function CategorySection({
                       {post.subcategory}
                     </span>
                     <h3 className="font-serif text-base font-medium text-cream-200 group-hover:text-warm-accent transition-colors line-clamp-2 leading-snug mt-1">
-                      <Link href={`/${post.category}/${post.slug}`}>
+                      <Link href={`/blog/${post.slug}`}>
                         {post.title}
                       </Link>
                     </h3>

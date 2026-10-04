@@ -31,7 +31,7 @@ export function MobileMenu({ isOpen, onClose, onOpenSearch }: MobileMenuProps) {
     { name: 'Home & Organization', href: '/space', icon: '🏠' },
     { name: 'Energy & Savings', href: '/energy', icon: '⚡' },
     { name: 'Mindful Living', href: '/life', icon: '🧘' },
-    { name: 'Latest Stories', href: '/latest' },
+    { name: 'Latest Stories', href: '/blog' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
   ];

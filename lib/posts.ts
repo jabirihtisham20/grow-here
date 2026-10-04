@@ -51,27 +51,44 @@ export function getAllPosts(includeDrafts = false): Post[] {
       const filePath = path.join(categoryDir, filename);
       const fileContents = fs.readFileSync(filePath, 'utf8');
       const { data, content } = matter(fileContents);
+      // Keystatic's slug field controls the entry filename. Use that canonical
+      // identifier so renaming a slug cannot leave a stale frontmatter slug behind.
       const slug = filename.replace(/\.(mdx|md)$/, '');
+      const publishedAt = data.publishedAt instanceof Date
+        ? data.publishedAt.toISOString().slice(0, 10)
+        : data.publishedAt;
 
-      const status = (data.status as 'draft' | 'published') || 'published';
-      if (!includeDrafts && status === 'draft') {
+      // Older entries predate the explicit status field; the CMS default is published.
+      const status = data.status === 'draft'
+        ? 'draft'
+        : data.status === undefined || data.status === 'published'
+          ? 'published'
+          : undefined;
+      // Invalid or incomplete entries should never leak onto public pages.
+      if (!status || (!includeDrafts && status !== 'published')) {
         continue;
       }
+
+      if (!slug || typeof data.title !== 'string' || !data.title.trim() ||
+          typeof data.description !== 'string' || !data.description.trim() ||
+          typeof publishedAt !== 'string' || Number.isNaN(Date.parse(publishedAt))) continue;
 
       allPosts.push({
         slug,
         title: data.title || 'Untitled',
         description: data.description || '',
-        category: (data.category as CategoryKey) || category,
+        // The collection directory is authoritative; the editable frontmatter label
+        // must not move an entry onto a different category route.
+        category,
         subcategory: data.subcategory || 'General',
         author: data.author || {
           name: 'Grow Here Editorial',
           role: 'Staff Writer',
           avatar: '/images/authors/editorial.webp',
         },
-        publishedAt: data.publishedAt || new Date().toISOString().split('T')[0],
+        publishedAt,
         updatedAt: data.updatedAt,
-        image: data.image || '/images/posts/hydroponics-for-beginners.webp',
+        image: typeof data.image === 'string' ? data.image : '',
         imageAlt: data.imageAlt || data.title || '',
         featured: Boolean(data.featured),
         editorsPick: Boolean(data.editorsPick),
@@ -88,6 +105,19 @@ export function getAllPosts(includeDrafts = false): Post[] {
     }
   }
 
+  if (!includeDrafts) {
+    const slugOwners = new Map<string, CategoryKey>();
+    for (const post of allPosts) {
+      const owner = slugOwners.get(post.slug);
+      if (owner) {
+        throw new Error(
+          `Duplicate public blog slug "${post.slug}" in collections "${owner}" and "${post.category}". Blog slugs must be unique across collections.`
+        );
+      }
+      slugOwners.set(post.slug, post.category);
+    }
+  }
+
   // Sort by published date descending
   return allPosts.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 }
@@ -99,6 +129,10 @@ export function getPostsByCategory(category: CategoryKey, includeDrafts = false)
 export function getPostBySlug(category: CategoryKey, slug: string, includeDrafts = false): Post | null {
   const posts = getPostsByCategory(category, includeDrafts);
   return posts.find((p) => p.slug === slug) || null;
+}
+
+export function getPostByAnySlug(slug: string, includeDrafts = false): Post | null {
+  return getAllPosts(includeDrafts).find((post) => post.slug === slug) || null;
 }
 
 export function getFeaturedPost(): Post | null {

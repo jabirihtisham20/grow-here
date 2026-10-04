@@ -37,13 +37,13 @@ export function FeaturedStory({ post }: FeaturedStoryProps) {
           <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch">
             {/* Editorial Image (desktop 7 cols) */}
             <div className="lg:col-span-7 relative min-h-[320px] sm:min-h-[420px] lg:min-h-[500px] overflow-hidden bg-forest-850">
-              <Image
+              {post.image && <Image
                 src={post.image}
                 alt={post.imageAlt}
                 fill
                 sizes="(max-width: 1024px) 100vw, 60vw"
                 className="object-cover transition-transform duration-700 hover:scale-105"
-              />
+              />}
               <div className="absolute inset-0 bg-gradient-to-t from-forest-950/80 via-transparent to-transparent lg:hidden" />
               <div className="absolute top-4 left-4 px-3 py-1.5 rounded-full bg-forest-950/85 backdrop-blur-md border border-forest-700/80 text-xs font-semibold uppercase tracking-wider text-warm-accent flex items-center gap-1.5">
                 <span>{categoryIcon}</span>
@@ -67,7 +67,7 @@ export function FeaturedStory({ post }: FeaturedStoryProps) {
                 </div>
 
                 <h3 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-cream-100 leading-snug tracking-tight hover:text-warm-accent transition-colors">
-                  <Link href={`/${post.category}/${post.slug}`}>
+                  <Link href={`/blog/${post.slug}`}>
                     {post.title}
                   </Link>
                 </h3>
@@ -95,6 +95,7 @@ export function FeaturedStory({ post }: FeaturedStoryProps) {
                       src={post.author.avatar}
                       alt={post.author.name}
                       fill
+                      unoptimized={post.author.avatar.startsWith('http')}
                       sizes="40px"
                       className="object-cover"
                     />
@@ -106,7 +107,7 @@ export function FeaturedStory({ post }: FeaturedStoryProps) {
                 </div>
 
                 <Link
-                  href={`/${post.category}/${post.slug}`}
+                  href={`/blog/${post.slug}`}
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-warm-accent text-forest-950 font-semibold text-xs uppercase tracking-wider hover:bg-warm-gold transition-colors shadow-md group"
                 >
                   <span>Read The Full Story</span>

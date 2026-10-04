@@ -23,6 +23,7 @@ export function ArticleImage({
           src={src}
           alt={alt}
           fill
+          unoptimized={src.startsWith('http')}
           className="object-cover transition-transform duration-500 hover:scale-[1.01]"
           sizes="(max-width: 768px) 100vw, 800px"
         />

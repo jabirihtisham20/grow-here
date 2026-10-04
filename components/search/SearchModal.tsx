@@ -139,7 +139,7 @@ export function SearchModal({ isOpen, onClose, posts: propPosts }: SearchModalPr
           {results.map((result) => (
             <Link
               key={`${result.category}-${result.slug}`}
-              href={`/${result.category}/${result.slug}`}
+              href={`/blog/${result.slug}`}
               onClick={onClose}
               className="group block rounded-xl border border-forest-800/80 bg-forest-850/60 p-4 hover:border-forest-600 hover:bg-forest-800/90 transition-all duration-200"
             >

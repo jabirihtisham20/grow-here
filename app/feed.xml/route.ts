@@ -17,7 +17,7 @@ export async function GET() {
 
   const feedItems = posts
     .map((post) => {
-      const postUrl = `${SITE_CONFIG.url}/${post.category}/${post.slug}`;
+      const postUrl = `${SITE_CONFIG.url}/blog/${post.slug}`;
       const pubDate = new Date(post.publishedAt).toUTCString();
 
       return `    <item>
@@ -48,7 +48,7 @@ ${feedItems}
   return new Response(rss, {
     headers: {
       'Content-Type': 'application/xml; charset=utf-8',
-      'Cache-Control': 's-maxage=3600, stale-while-revalidate',
+      'Cache-Control': 'public, max-age=0, s-maxage=60, stale-while-revalidate=300',
     },
   });
 }

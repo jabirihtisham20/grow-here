@@ -132,17 +132,24 @@ function createPillarCollection(
 ) {
   return collection({
     label: pillarLabel,
-    slugField: 'slug',
+    slugField: 'title',
     path: `content/${pillarKey}/*`,
     format: { contentField: 'content' },
     schema: {
-      title: fields.text({
-        label: 'Article Title',
-        validation: { isRequired: true },
-      }),
-      slug: fields.text({
-        label: 'Slug (URL path)',
-        validation: { isRequired: true },
+      title: fields.slug({
+        name: {
+          label: 'Article Title',
+          validation: { isRequired: true },
+        },
+        slug: {
+          label: 'Slug (URL path)',
+          validation: {
+            pattern: {
+              regex: /^[a-z0-9]+(?:-[a-z0-9]+)*$/,
+              message: 'Use lowercase letters and numbers separated by single hyphens.',
+            },
+          },
+        },
       }),
       description: fields.text({
         label: 'Summary / Excerpt',
@@ -232,6 +239,12 @@ function createPillarCollection(
       }),
       content: fields.mdx({
         label: 'Article Body Content (MDX)',
+        options: {
+          image: {
+            directory: 'public/images/posts',
+            publicPath: '/images/posts',
+          },
+        },
         components: customContentComponents,
       }),
     },

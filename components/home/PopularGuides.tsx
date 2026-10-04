@@ -44,7 +44,7 @@ export function PopularGuides({ posts }: PopularGuidesProps) {
                     </div>
 
                     <h3 className="font-serif text-xl sm:text-2xl font-medium text-cream-200 group-hover:text-warm-accent transition-colors leading-snug">
-                      <Link href={`/${post.category}/${post.slug}`}>
+                      <Link href={`/blog/${post.slug}`}>
                         {post.title}
                       </Link>
                     </h3>
@@ -60,7 +60,7 @@ export function PopularGuides({ posts }: PopularGuidesProps) {
                     {post.readingTime}
                   </span>
                   <Link
-                    href={`/${post.category}/${post.slug}`}
+                    href={`/blog/${post.slug}`}
                     aria-label={`Read guide: ${post.title}`}
                     className="w-10 h-10 rounded-full border border-forest-700 bg-forest-850 flex items-center justify-center text-cream-300 group-hover:border-warm-accent group-hover:text-warm-accent group-hover:bg-forest-800 transition-colors"
                   >

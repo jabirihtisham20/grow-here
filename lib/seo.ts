@@ -1,15 +1,24 @@
 import { Post } from './posts';
 
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://growhere.online').replace(/\/+$/, '');
+
 export const SITE_CONFIG = {
   name: 'Grow Here',
   title: 'Grow Here | Greener Spaces, Smarter Homes, Lighter Living',
   description: 'Practical guides for indoor plants, small-space living, energy saving, solar, digital wellness, minimalism and mindful everyday life.',
   primaryKeyword: 'sustainable living ideas',
-  url: 'https://growhere.online',
-  ogImage: 'https://growhere.online/images/posts/how-to-create-a-greener-calmer-home.webp',
+  url: siteUrl,
+  ogImage: `${siteUrl}/images/posts/how-to-create-a-greener-calmer-home.webp`,
   author: 'Grow Here Editorial Team',
   twitterHandle: '@growhere',
 };
+
+export function getAbsolutePostImage(image: string): string {
+  if (!image) return SITE_CONFIG.ogImage;
+  return image.startsWith('http')
+    ? image
+    : `${SITE_CONFIG.url}${image.startsWith('/') ? '' : '/'}${image}`;
+}
 
 export function generateWebsiteSchema() {
   return {
@@ -43,9 +52,7 @@ export function generateOrganizationSchema() {
 }
 
 export function generateArticleSchema(post: Post) {
-  const absoluteImage = post.image.startsWith('http')
-    ? post.image
-    : `${SITE_CONFIG.url}${post.image.startsWith('/') ? '' : '/'}${post.image}`;
+  const absoluteImage = getAbsolutePostImage(post.image);
 
   const authorAvatar = post.author.avatar.startsWith('http')
     ? post.author.avatar
@@ -77,7 +84,7 @@ export function generateArticleSchema(post: Post) {
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `${SITE_CONFIG.url}/${post.category}/${post.slug}`,
+      '@id': `${SITE_CONFIG.url}/blog/${post.slug}`,
     },
     keywords: post.tags.join(', '),
   };

@@ -156,6 +156,7 @@ export default async function PreviewArticlePage({ params }: PreviewPageProps) {
                   src={post.author.avatar}
                   alt={post.author.name}
                   fill
+                  unoptimized={post.author.avatar.startsWith('http')}
                   className="object-cover"
                 />
               </div>
@@ -182,14 +183,14 @@ export default async function PreviewArticlePage({ params }: PreviewPageProps) {
         {/* Hero Image */}
         <Container size="default" className="my-10">
           <div className="relative aspect-[16/9] max-h-[580px] rounded-3xl overflow-hidden border border-forest-750 bg-forest-850 shadow-2xl">
-            <Image
+            {post.image && <Image
               src={post.image}
               alt={post.imageAlt || post.title}
               fill
               priority
               sizes="(max-width: 1200px) 100vw, 1200px"
               className="object-cover"
-            />
+            />}
           </div>
         </Container>
 

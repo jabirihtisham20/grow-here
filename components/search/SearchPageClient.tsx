@@ -138,13 +138,13 @@ export function SearchPageClient({ initialPosts }: SearchPageClientProps) {
               className="group rounded-2xl border border-forest-800 bg-forest-900/60 overflow-hidden flex flex-col justify-between hover:border-forest-650 transition-all shadow-lg hover:-translate-y-1"
             >
               <div className="relative aspect-[16/10] w-full bg-forest-850 overflow-hidden">
-                <Image
+                {post.image && <Image
                   src={post.image}
                   alt={post.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                />}
                 <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-forest-950/80 backdrop-blur-sm text-[10px] uppercase tracking-wider font-semibold text-warm-accent border border-forest-700">
                   {categoryNames[post.category] || post.category}
                 </div>
@@ -162,7 +162,7 @@ export function SearchPageClient({ initialPosts }: SearchPageClientProps) {
                   </div>
 
                   <h3 className="font-serif text-lg font-normal text-cream-100 group-hover:text-warm-accent transition-colors leading-snug">
-                    <Link href={`/${post.category}/${post.slug}`}>
+                    <Link href={`/blog/${post.slug}`}>
                       {post.title}
                     </Link>
                   </h3>
@@ -175,7 +175,7 @@ export function SearchPageClient({ initialPosts }: SearchPageClientProps) {
                 <div className="mt-4 pt-4 border-t border-forest-800 flex items-center justify-between text-xs text-botanical-muted">
                   <span>{formatDate(post.publishedAt)}</span>
                   <Link
-                    href={`/${post.category}/${post.slug}`}
+                    href={`/blog/${post.slug}`}
                     className="inline-flex items-center gap-1 text-warm-accent font-medium hover:underline"
                   >
                     <span>Read</span>
