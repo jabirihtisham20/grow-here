@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import KeystaticApp from './keystatic';
 
 export const metadata: Metadata = {
   title: 'Grow Here Admin | Keystatic CMS',
@@ -11,11 +12,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function KeystaticLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function KeystaticLayout() {
   return (
     <div
       className="fixed inset-0 z-[9999] flex flex-col overflow-hidden"
@@ -409,7 +406,7 @@ export default function KeystaticLayout({
           }
         `}</style>
 
-        {children}
+        <KeystaticApp />
       </div>
 
       {/* ── Subtle Branded Footer Bar ── */}
