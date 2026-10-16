@@ -54,7 +54,7 @@ Actual `.env`/`.env.local` and all external Vercel/Neon settings were left untou
 
 ## Git/Vercel and remaining work
 
-The migration is isolated on `chore/file-based-mdx-migration`. A non-interactive GitHub push dry run succeeded without uploading refs/code. The repository remote is unchanged. No Vercel CLI/project link or Vercel token was available locally; Git-based preview deployment is being checked through the existing integration where possible. See `deployment.json` for the final verified remote status; do not infer production publication from this document's local counts.
+The migration was pushed on chore/file-based-mdx-migration, then published by a non-forced fast-forward of main to release commit **b7988494e02ac43afffc33b7f022fe78c2e840c9**. Vercel confirmed successful Preview and Production builds. Preview HTTP QA was blocked by Vercel login protection. Production was verified directly at **https://growhere.online**: all 41 canonical article routes and all 41 legacy aliases pass, all 21 original rendered bodies are unchanged, the sitemap contains exactly 41 articles, archive pagination exposes every article, and retired test/admin routes return 404. All 42 locally hosted featured/author assets and a representative Next image optimisation URL return 200. See deployment.json, github-preview.json, production-http.json and live-images.json for the evidence. Browser visual QA remains unavailable.
 
 No Vercel environment variables, Blob stores, Neon projects or database records were removed. After a verified deployment, the owner can follow the exact environment-cleanup steps in [docs/BLOG_MANAGEMENT.md](../../docs/BLOG_MANAGEMENT.md). Keep Neon and its backups as the temporary rollback source. No unrelated redirect rule was changed.
 

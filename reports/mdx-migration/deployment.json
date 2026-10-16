@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-16T17:23:10.803Z",
+  "checkedAt": "2026-10-16T17:29:43.467Z",
   "localRelease": {
     "originals": 21,
     "newUKArticles": 20,
@@ -20,7 +20,8 @@
     "productionBuild": "passed; 107 static pages generated",
     "loaderTests": "8 passed",
     "functionTraces": "content/media present; no database packages",
-    "browser": "Unavailable; no viewport/interaction pass claimed"
+    "browser": "Unavailable; no viewport/interaction pass claimed",
+    "liveMedia": "42 locally hosted assets + Next image optimizer passed"
   },
   "database": {
     "writes": 0,
@@ -29,7 +30,19 @@
   },
   "deployment": {
     "branch": "chore/file-based-mdx-migration",
-    "preview": "pending Git push",
-    "production": "not deployed"
+    "releaseCommit": "b7988494e02ac43afffc33b7f022fe78c2e840c9",
+    "productionBranch": "main",
+    "push": "Non-forced fast-forward succeeded",
+    "preview": {
+      "build": "success",
+      "url": "https://grow-here-42g078x96-jabirihtisham20.vercel.app",
+      "httpQA": "Blocked by Vercel login protection; not an article rendering failure"
+    },
+    "production": {
+      "build": "success",
+      "url": "https://growhere.online",
+      "deploymentUrl": "https://grow-here-n58fyfsnx-jabirihtisham20.vercel.app",
+      "httpQA": "passed: 41 canonical routes + 41 legacy aliases, all 21 original bodies unchanged, exact sitemap, archive pagination, metadata/schema, static pages, APIs, retired admin/test 404"
+    }
   }
 }

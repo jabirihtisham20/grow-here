@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-16T17:27:54.886Z",
+  "sha": "b7988494e02ac43afffc33b7f022fe78c2e840c9",
+  "readOnly": true,
+  "combinedState": "success",
+  "checks": [
+    {
+      "state": "success",
+      "context": "Vercel",
+      "targetUrl": "https://vercel.com/jabirihtisham20/grow-here/35PZXDxheN7NqXB2wZ87QDVBrzJd",
+      "description": "Deployment has completed"
+    }
+  ],
+  "deployments": [
+    {
+      "id": 7125344902,
+      "environment": "Production",
+      "statuses": [
+        {
+          "state": "success",
+          "environmentUrl": "https://grow-here-n58fyfsnx-jabirihtisham20.vercel.app",
+          "logUrl": "https://grow-here-n58fyfsnx-jabirihtisham20.vercel.app",
+          "description": "Deployment has completed"
+        }
+      ]
+    },
+    {
+      "id": 7125308400,
+      "environment": "Preview",
+      "statuses": [
+        {
+          "state": "success",
+          "environmentUrl": "https://grow-here-42g078x96-jabirihtisham20.vercel.app",
+          "logUrl": "https://grow-here-42g078x96-jabirihtisham20.vercel.app",
+          "description": "Deployment has completed"
+        }
+      ]
+    }
+  ]
+}
