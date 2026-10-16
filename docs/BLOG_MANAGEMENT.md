@@ -49,7 +49,7 @@ Required fields include title, description, date, a complete author object, feat
 
 ## Images
 
-Use owned, original or verifiably licensed assets and record provenance/attribution. Do not hotlink copyrighted stock or use temporary file URLs. Optimise to WebP/AVIF where appropriate, generally a 1200 × 675 hero, with descriptive alt text. The existing Next Image components handle responsive sizes and stable aspect ratios; supporting images use lazy loading by default. Preserve existing indexed asset URLs. If replacing a file at the same path, rebuild and verify cache behaviour; prefer a new descriptive filename when a genuinely different asset needs a new identity.
+Use owned, original or verifiably licensed assets and record provenance/attribution. Prefer attractive, realistic editorial photography for article heroes: natural light, authentic textures and a scene directly relevant to the topic. Avoid schematic drawings, icon collages and text-heavy graphics as the default hero style. AI-generated photographic assets are acceptable; record their prompts and do not present them as evidence of first-hand testing or real events. Do not hotlink copyrighted stock or use temporary file URLs. Optimise to WebP/AVIF where appropriate, generally a 1600 × 900 hero, with descriptive alt text. The existing Next Image components handle responsive sizes and stable aspect ratios; supporting images use lazy loading by default. Preserve existing indexed asset URLs. If replacing a file at the same path, rebuild and verify cache behaviour; prefer a new descriptive filename when a genuinely different asset needs a new identity.
 
 ## Edit, relate or remove content
 

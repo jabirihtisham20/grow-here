@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-17",
+  "method": "Built-in image_gen",
+  "backup": "data/migration-backups/image-refresh-2026-10-17",
+  "images": [
+    {
+      "slug": "peat-free-compost-watering-diagnosis",
+      "image": "/images/posts/peat-free-compost-watering-diagnosis.webp",
+      "imageAlt": "Hand checking compost moisture in a terracotta herb pot on a sunny balcony",
+      "width": 1600,
+      "height": 900,
+      "bytes": 224790,
+      "sha256": "699d3e8cc6dfd0808d754fa3c5a2df91b4dd3a2e12b1349bbf60091446be4913"
+    },
+    {
+      "slug": "balcony-wind-protection-plants-uk",
+      "image": "/images/posts/balcony-wind-protection-plants-uk.webp",
+      "imageAlt": "Potted herbs sheltered by a woven willow screen on a British balcony",
+      "width": 1600,
+      "height": 900,
+      "bytes": 329702,
+      "sha256": "3c8f9a763d2a0479233762a9438ec37169a5c51c2669bc00f2d3a817afdf14a9"
+    },
+    {
+      "slug": "autumn-pollinator-container-plan-uk",
+      "image": "/images/posts/autumn-pollinator-container-plan-uk.webp",
+      "imageAlt": "Purple asters, pink sedum and dahlias in terracotta pots with visiting bumblebees",
+      "width": 1600,
+      "height": 900,
+      "bytes": 348024,
+      "sha256": "bdc0de5370f5b352ef2eaa906f1b8c3bb2c6b556bbdd23eb6699d144481e1399"
+    },
+    {
+      "slug": "balcony-wormery-winter-uk",
+      "image": "/images/posts/balcony-wormery-winter-uk.webp",
+      "imageAlt": "Closed worm compost bin with an insulating wrap beside a sheltered balcony wall",
+      "width": 1600,
+      "height": 900,
+      "bytes": 270502,
+      "sha256": "5367a8aea411d39188685a6bff1c7fbc343e4b8d0d69b597c0866faf4a465080"
+    },
+    {
+      "slug": "overwinter-strawberries-in-pots-uk",
+      "image": "/images/posts/overwinter-strawberries-in-pots-uk.webp",
+      "imageAlt": "Strawberry plants in terracotta pots raised beside a sheltered brick wall in winter",
+      "width": 1600,
+      "height": 900,
+      "bytes": 287084,
+      "sha256": "183f5fd6193cd2d9c1fc4a80f090cc0c6e0b69c7abba959d8dd916861e77d653"
+    },
+    {
+      "slug": "winter-condensation-observation-checklist",
+      "image": "/images/posts/winter-condensation-observation-checklist.webp",
+      "imageAlt": "Condensation droplets along the inside edge of a window overlooking a winter garden",
+      "width": 1600,
+      "height": 900,
+      "bytes": 152654,
+      "sha256": "b92c5ca074620897be6486022247f1319ab504844519511374a146485f251c72"
+    },
+    {
+      "slug": "dry-laundry-small-flat-winter",
+      "image": "/images/posts/dry-laundry-small-flat-winter.webp",
+      "imageAlt": "Laundry spaced on an airer with a dehumidifier nearby in a bright small flat",
+      "width": 1600,
+      "height": 900,
+      "bytes": 182714,
+      "sha256": "2424e794f15512420baa2d52c31b079d69d2522c2f0bb946dff5822664c7daab"
+    },
+    {
+      "slug": "fridge-eat-first-box-food-safety",
+      "image": "/images/posts/fridge-eat-first-box-food-safety.webp",
+      "imageAlt": "Covered cooked leftovers on fridge shelves above separately stored raw meat",
+      "width": 1600,
+      "height": 900,
+      "bytes": 162010,
+      "sha256": "053c637cf722cbc26afd3239f4ece2ac2f5b53e761a6410cb08eb3294b3528a2"
+    },
+    {
+      "slug": "freezer-inventory-power-cut-plan",
+      "image": "/images/posts/freezer-inventory-power-cut-plan.webp",
+      "imageAlt": "Closed freezer beside a notebook and digital thermometer in a utility room",
+      "width": 1600,
+      "height": 900,
+      "bytes": 137822,
+      "sha256": "b4152bd3f61f7a7cfbdf15fd287e67edd9d2bce6b9fdce0ac523231ec8082ffb"
+    },
+    {
+      "slug": "under-sink-leak-checklist",
+      "image": "/images/posts/under-sink-leak-checklist.webp",
+      "imageAlt": "Open under-sink cupboard showing plumbing, accessible valve, torch and dry cloth",
+      "width": 1600,
+      "height": 900,
+      "bytes": 95662,
+      "sha256": "7b89a67092b6cf06bfa7ed46c7d859ec8ed747204021c78619163064cc7b7830"
+    },
+    {
+      "slug": "plug-in-energy-monitor-rented-flat",
+      "image": "/images/posts/plug-in-energy-monitor-rented-flat.webp",
+      "imageAlt": "Plug-in energy monitor with an appliance connected at a UK wall socket",
+      "width": 1600,
+      "height": 900,
+      "bytes": 75388,
+      "sha256": "69127f42090efd41c4163767cf5051d25d1e1ec28c802bdca821df739c922d39"
+    },
+    {
+      "slug": "letterbox-draught-proofing-checks",
+      "image": "/images/posts/letterbox-draught-proofing-checks.webp",
+      "imageAlt": "Interior letterbox with draught-excluding bristles on a sage green front door",
+      "width": 1600,
+      "height": 900,
+      "bytes": 89570,
+      "sha256": "ed63a7f829e8bc41fc3c27a85aa334f1b276b097b020dff084d46522cffba8ed"
+    },
+    {
+      "slug": "washing-machine-repair-replace-calculation",
+      "image": "/images/posts/washing-machine-repair-replace-calculation.webp",
+      "imageAlt": "Front-loading washing machine beside a notebook and calculator in a utility room",
+      "width": 1600,
+      "height": 900,
+      "bytes": 140990,
+      "sha256": "fcc5525cbf17ca6198f02b71783309c171aad90bb383aa999e3f129800665488"
+    },
+    {
+      "slug": "dehumidifier-running-cost-calculation",
+      "image": "/images/posts/dehumidifier-running-cost-calculation.webp",
+      "imageAlt": "Portable dehumidifier with clear space around it beside a table with a cost notebook",
+      "width": 1600,
+      "height": 900,
+      "bytes": 174996,
+      "sha256": "f58e7ad32bc43f7ce205a26d5dde2a80e7f3182c6ad4aa3f44d4b4b5f6156246"
+    },
+    {
+      "slug": "smart-meter-display-bill-difference",
+      "image": "/images/posts/smart-meter-display-bill-difference.webp",
+      "imageAlt": "In-home energy display beside an electricity bill and pencil on a kitchen table",
+      "width": 1600,
+      "height": 900,
+      "bytes": 84402,
+      "sha256": "350e0400196da70eaeb5386a452265bde96093c1cee8c65478421f8b3a82af94"
+    },
+    {
+      "slug": "household-phone-boundaries-emergency-contact",
+      "image": "/images/posts/household-phone-boundaries-emergency-contact.webp",
+      "imageAlt": "Phone resting face down in a wooden tray beside an open book in a calm home",
+      "width": 1600,
+      "height": 900,
+      "bytes": 148018,
+      "sha256": "ecd7437f977e5daa8095d942f3327a87d310dfc314bf855547e4425ea2e2467a"
+    },
+    {
+      "slug": "unsubscribe-marketing-keep-important-emails",
+      "image": "/images/posts/unsubscribe-marketing-keep-important-emails.webp",
+      "imageAlt": "Person reviewing an email inbox on a laptop at a naturally lit home desk",
+      "width": 1600,
+      "height": 900,
+      "bytes": 114570,
+      "sha256": "275824a5826f2573aaa7003e434ecf0f6d700b4ac1e2d6b4e2a2041a4fcc0f1b"
+    },
+    {
+      "slug": "repair-cafe-first-visit-checklist-uk",
+      "image": "/images/posts/repair-cafe-first-visit-checklist-uk.webp",
+      "imageAlt": "Two volunteers inspecting a table lamp at a community repair event",
+      "width": 1600,
+      "height": 900,
+      "bytes": 146088,
+      "sha256": "2c421da709c935a38769fc848341beb683f9af45cd21af256ed6eb38351d0cc2"
+    },
+    {
+      "slug": "library-of-things-borrow-versus-buy",
+      "image": "/images/posts/library-of-things-borrow-versus-buy.webp",
+      "imageAlt": "Cordless drill, carry case and canvas bag on a community tool lending counter",
+      "width": 1600,
+      "height": 900,
+      "bytes": 179830,
+      "sha256": "e8a348c44e43c571b62b26481a610c5954f7b8a77ca94cdf36307a1dad67be0e"
+    },
+    {
+      "slug": "photo-declutter-backup-checklist",
+      "image": "/images/posts/photo-declutter-backup-checklist.webp",
+      "imageAlt": "Laptop photo library with a separate backup drive connected on a wooden desk",
+      "width": 1600,
+      "height": 900,
+      "bytes": 134548,
+      "sha256": "1354a1c87802919419155e73dfdc06f85ad2cbe84a52d0e4bff44a70af8ac29c"
+    }
+  ]
+}
