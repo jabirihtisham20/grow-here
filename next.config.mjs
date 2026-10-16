@@ -11,8 +11,7 @@ const nextConfig = {
   compress: true,
   images: {
     formats: ['image/avif', 'image/webp'],
-    // Keystatic can replace an image at the same public path. Keep optimized
-    // derivatives short-lived so edits are visible promptly after deployment.
+    // Keep existing indexed media paths and cache behaviour during file-based publishing.
     minimumCacheTTL: 60,
     remotePatterns: [
       {
@@ -22,6 +21,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'avatars.githubusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.public.blob.vercel-storage.com',
+        pathname: '/**',
       },
     ],
   },

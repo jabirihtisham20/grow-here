@@ -1,0 +1,741 @@
+{
+  "genuineOriginalCount": 21,
+  "testCount": 1,
+  "allGenuineRecovered": true,
+  "method": "Live vs local production SSR: full visible prose, links/inline images, H1, title, description, canonical, author names, dates and social metadata",
+  "results": [
+    {
+      "slug": "balcony-herb-garden",
+      "file": "content/grow/balcony-herb-garden.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3639,
+      "bodySha256": "fbcf73739961841df22b1d8fc0df94758456262d746342faf2a92c72cbf48db2",
+      "metadata": {
+        "h1": "Balcony Herb Garden: 10 Easy Herbs to Grow in Pots",
+        "title": "Balcony Herb Garden: 10 Easy Herbs to Grow | Grow Here",
+        "description": "Start a balcony herb garden with easy herbs for pots, simple container tips, watering advice and a realistic setup for small spaces.",
+        "canonical": "https://growhere.online/blog/balcony-herb-garden",
+        "links": [
+          "/grow/mini-garden-ideas-small-spaces",
+          "/grow/hydroponics-for-beginners",
+          "/grow/how-to-grow-microgreens-indoors"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/balcony-herb-garden.webp"
+        ],
+        "headline": "Balcony Herb Garden: 10 Easy Herbs to Grow in Pots",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/balcony-herb-garden.webp",
+        "ogDescription": "Start a balcony herb garden with easy herbs for pots, simple container tips, watering advice and a realistic setup for small spaces."
+      },
+      "verified": true
+    },
+    {
+      "slug": "best-low-light-indoor-plants-apartments",
+      "file": "content/grow/best-low-light-indoor-plants-apartments.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3424,
+      "bodySha256": "03c76bccd8af190c2a68a6a8b2a3d141c3efb274cd359142067c712c481056fd",
+      "metadata": {
+        "h1": "Best Low-Light Indoor Plants for Apartments: 9 Easy Choices",
+        "title": "9 Best Low-Light Indoor Plants for Apartments | Grow Here",
+        "description": "Discover low-light indoor plants that can handle dimmer apartments, plus simple care tips for watering, placement and healthy growth.",
+        "canonical": "https://growhere.online/blog/best-low-light-indoor-plants-apartments",
+        "links": [
+          "/grow/mini-garden-ideas-small-spaces",
+          "/grow/balcony-herb-garden"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/best-low-light-indoor-plants-apartments.webp"
+        ],
+        "headline": "Best Low-Light Indoor Plants for Apartments: 9 Easy Choices",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/best-low-light-indoor-plants-apartments.webp",
+        "ogDescription": "Discover low-light indoor plants that can handle dimmer apartments, plus simple care tips for watering, placement and healthy growth."
+      },
+      "verified": true
+    },
+    {
+      "slug": "fkkj",
+      "file": "content/grow/fkkj.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": true,
+      "differences": [],
+      "bodyCharacters": 18,
+      "bodySha256": "6476f44e58f2c2d28c661d3a37323d2dd7239040ebf962d5387bb75c4a98d2d8",
+      "metadata": {
+        "h1": "fkkj",
+        "title": ",jfbwefww",
+        "description": "kjdfkf",
+        "canonical": "https://growhere.online/blog/fkkj",
+        "links": [],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/fkkj/image.png"
+        ],
+        "headline": "fkkj",
+        "publishedAt": "2026-10-04",
+        "updatedAt": "2026-10-04",
+        "authorNames": [
+          "Elena Vance"
+        ],
+        "ogImage": "https://growhere.online/images/posts/fkkj/image.png",
+        "ogDescription": "flqsnlsl"
+      },
+      "verified": true
+    },
+    {
+      "slug": "how-to-create-a-greener-calmer-home",
+      "file": "content/grow/how-to-create-a-greener-calmer-home.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 4341,
+      "bodySha256": "646068647a9d3437c4cee686edb2d811a16e06f75a575bd9eb8105f058efe72b",
+      "metadata": {
+        "h1": "How to Create a Greener, Calmer Home Without Doing Everything at Once",
+        "title": "How to Create a Greener, Calmer Home | Grow Here",
+        "description": "A realistic starting plan for better plants, less clutter, smarter energy use and more intentional routines.",
+        "canonical": "https://growhere.online/blog/how-to-create-a-greener-calmer-home",
+        "links": [
+          "/grow/mini-garden-ideas-small-spaces",
+          "/space/small-apartment-organization-ideas",
+          "/energy/how-to-save-energy-at-home",
+          "/life/digital-minimalism-guide"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/how-to-create-a-greener-calmer-home.webp"
+        ],
+        "headline": "How to Create a Greener, Calmer Home Without Doing Everything at Once",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/how-to-create-a-greener-calmer-home.webp",
+        "ogDescription": "A realistic starting plan for better plants, less clutter, smarter energy use and more intentional routines."
+      },
+      "verified": true
+    },
+    {
+      "slug": "how-to-grow-microgreens-indoors",
+      "file": "content/grow/how-to-grow-microgreens-indoors.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3473,
+      "bodySha256": "09e953745861a517017aff683294d3f99e8676b669a541e81fc645e16bb8b13d",
+      "metadata": {
+        "h1": "How to Grow Microgreens Indoors: A Simple Beginner Guide",
+        "title": "How to Grow Microgreens Indoors for Beginners | Grow Here",
+        "description": "Learn how to grow microgreens indoors with trays, seeds, light, watering and harvesting tips for a simple first crop at home.",
+        "canonical": "https://growhere.online/blog/how-to-grow-microgreens-indoors",
+        "links": [
+          "/grow/hydroponics-for-beginners",
+          "/grow/mini-garden-ideas-small-spaces",
+          "/grow/balcony-herb-garden"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/how-to-grow-microgreens-indoors.webp"
+        ],
+        "headline": "How to Grow Microgreens Indoors: A Simple Beginner Guide",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/how-to-grow-microgreens-indoors.webp",
+        "ogDescription": "Learn how to grow microgreens indoors with trays, seeds, light, watering and harvesting tips for a simple first crop at home."
+      },
+      "verified": true
+    },
+    {
+      "slug": "hydroponics-for-beginners",
+      "file": "content/grow/hydroponics-for-beginners.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3974,
+      "bodySha256": "c0073dfdddb45241b476257893676998ac02c06f39701e5690f59c7a78338905",
+      "metadata": {
+        "h1": "Hydroponics for Beginners: How to Start an Indoor Hydroponic Garden",
+        "title": "Hydroponics for Beginners: Simple Indoor Setup | Grow Here",
+        "description": "Learn hydroponics for beginners with a simple indoor setup, suitable crops, lighting, nutrients, water care and common mistakes to avoid.",
+        "canonical": "https://growhere.online/blog/hydroponics-for-beginners",
+        "links": [
+          "/grow/how-to-grow-microgreens-indoors",
+          "/grow/balcony-herb-garden",
+          "/grow/mini-garden-ideas-small-spaces"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/hydroponics-for-beginners.webp"
+        ],
+        "headline": "Hydroponics for Beginners: How to Start an Indoor Hydroponic Garden",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/hydroponics-for-beginners.webp",
+        "ogDescription": "Learn hydroponics for beginners with a simple indoor setup, suitable crops, lighting, nutrients, water care and common mistakes to avoid."
+      },
+      "verified": true
+    },
+    {
+      "slug": "mini-garden-ideas-small-spaces",
+      "file": "content/grow/mini-garden-ideas-small-spaces.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 4529,
+      "bodySha256": "28b9300b90d98978b5660b75e0b965fb0d0877413e9fcbf968e64e9c922a1c83",
+      "metadata": {
+        "h1": "Mini Garden Ideas for Small Spaces: 12 Easy Ways to Grow More",
+        "title": "12 Mini Garden Ideas for Small Spaces | Grow Here",
+        "description": "Create a mini garden on a balcony, windowsill or small patio with 12 simple ideas for herbs, greens, containers and vertical growing.",
+        "canonical": "https://growhere.online/blog/mini-garden-ideas-small-spaces",
+        "links": [
+          "/grow/hydroponics-for-beginners",
+          "/grow/balcony-herb-garden",
+          "/grow/how-to-grow-microgreens-indoors"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/mini-garden-ideas-small-spaces.webp"
+        ],
+        "headline": "Mini Garden Ideas for Small Spaces: 12 Easy Ways to Grow More",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/mini-garden-ideas-small-spaces.webp",
+        "ogDescription": "Create a mini garden on a balcony, windowsill or small patio with 12 simple ideas for herbs, greens, containers and vertical growing."
+      },
+      "verified": true
+    },
+    {
+      "slug": "80-20-decluttering-method",
+      "file": "content/space/80-20-decluttering-method.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3512,
+      "bodySha256": "9e2878b99d2d6b86f2ef9afa5e1a3885507ef7496255ae7c62f79818016ea1fb",
+      "metadata": {
+        "h1": "The 80/20 Decluttering Method: A Simple Way to Keep Storage Under Control",
+        "title": "80/20 Decluttering Method: How to Use It at Home | Grow Here",
+        "description": "Learn the 80/20 decluttering method: use about 80% of a storage area and leave 20% open so shelves, drawers and closets stay easier to manage.",
+        "canonical": "https://growhere.online/blog/80-20-decluttering-method",
+        "links": [
+          "/space/small-apartment-organization-ideas",
+          "/space/room-by-room-decluttering-checklist"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/80-20-decluttering-method.webp"
+        ],
+        "headline": "The 80/20 Decluttering Method: A Simple Way to Keep Storage Under Control",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/80-20-decluttering-method.webp",
+        "ogDescription": "Learn the 80/20 decluttering method: use about 80% of a storage area and leave 20% open so shelves, drawers and closets stay easier to manage."
+      },
+      "verified": true
+    },
+    {
+      "slug": "room-by-room-decluttering-checklist",
+      "file": "content/space/room-by-room-decluttering-checklist.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3136,
+      "bodySha256": "018b5968b89eb8ba4754e9828f98d1c4b6b8a8f9cc3cad6446de12b0ddb3fd68",
+      "metadata": {
+        "h1": "Room-by-Room Decluttering Checklist: A Realistic Weekend Plan",
+        "title": "Room-by-Room Decluttering Checklist | Grow Here",
+        "description": "Use this realistic decluttering checklist to clear your entryway, kitchen, bedroom, bathroom, living room and digital spaces one area at a time.",
+        "canonical": "https://growhere.online/blog/room-by-room-decluttering-checklist",
+        "links": [
+          "/space/80-20-decluttering-method",
+          "/space/small-apartment-organization-ideas"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/room-by-room-decluttering-checklist.webp"
+        ],
+        "headline": "Room-by-Room Decluttering Checklist: A Realistic Weekend Plan",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/room-by-room-decluttering-checklist.webp",
+        "ogDescription": "Use this realistic decluttering checklist to clear your entryway, kitchen, bedroom, bathroom, living room and digital spaces one area at a time."
+      },
+      "verified": true
+    },
+    {
+      "slug": "small-apartment-organization-ideas",
+      "file": "content/space/small-apartment-organization-ideas.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3429,
+      "bodySha256": "c5117f2291b8a57ae406193c3d534b3778ee7ddee6a1436cce96f91c60b7b7c6",
+      "metadata": {
+        "h1": "Small Apartment Organization Ideas That Actually Work",
+        "title": "Small Apartment Organization Ideas That Work | Grow Here",
+        "description": "Use these practical small apartment organization ideas to reduce clutter, create storage and make daily routines easier without renovating.",
+        "canonical": "https://growhere.online/blog/small-apartment-organization-ideas",
+        "links": [
+          "/space/80-20-decluttering-method",
+          "/space/vertical-storage-ideas-small-homes",
+          "/space/small-kitchen-organization-ideas"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/small-apartment-organization-ideas.webp"
+        ],
+        "headline": "Small Apartment Organization Ideas That Actually Work",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/small-apartment-organization-ideas.webp",
+        "ogDescription": "Use these practical small apartment organization ideas to reduce clutter, create storage and make daily routines easier without renovating."
+      },
+      "verified": true
+    },
+    {
+      "slug": "small-kitchen-organization-ideas",
+      "file": "content/space/small-kitchen-organization-ideas.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3456,
+      "bodySha256": "cf2a56ad9f9f813d7d126651906fec1e14cd75f07f06078a24f71716e77328d4",
+      "metadata": {
+        "h1": "Small Kitchen Organization Ideas: 14 Ways to Create More Usable Space",
+        "title": "14 Small Kitchen Organization Ideas | Grow Here",
+        "description": "Make a small kitchen easier to use with practical pantry, cabinet, drawer, counter and vertical storage ideas that reduce daily clutter.",
+        "canonical": "https://growhere.online/blog/small-kitchen-organization-ideas",
+        "links": [
+          "/space/small-apartment-organization-ideas",
+          "/space/vertical-storage-ideas-small-homes"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/small-kitchen-organization-ideas.webp"
+        ],
+        "headline": "Small Kitchen Organization Ideas: 14 Ways to Create More Usable Space",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/small-kitchen-organization-ideas.webp",
+        "ogDescription": "Make a small kitchen easier to use with practical pantry, cabinet, drawer, counter and vertical storage ideas that reduce daily clutter."
+      },
+      "verified": true
+    },
+    {
+      "slug": "vertical-storage-ideas-small-homes",
+      "file": "content/space/vertical-storage-ideas-small-homes.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3770,
+      "bodySha256": "64ed09e123cc51d92f96e0d6fd574d0479431db321fac4d8a537053c491ffda7",
+      "metadata": {
+        "h1": "Vertical Storage Ideas for Small Homes: 15 Ways to Use Your Walls",
+        "title": "15 Vertical Storage Ideas for Small Homes | Grow Here",
+        "description": "Use walls, doors and tall furniture to create vertical storage in small homes without sacrificing valuable floor space.",
+        "canonical": "https://growhere.online/blog/vertical-storage-ideas-small-homes",
+        "links": [
+          "/space/small-apartment-organization-ideas",
+          "/space/small-kitchen-organization-ideas"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/vertical-storage-ideas-small-homes.webp"
+        ],
+        "headline": "Vertical Storage Ideas for Small Homes: 15 Ways to Use Your Walls",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/vertical-storage-ideas-small-homes.webp",
+        "ogDescription": "Use walls, doors and tall furniture to create vertical storage in small homes without sacrificing valuable floor space."
+      },
+      "verified": true
+    },
+    {
+      "slug": "are-solar-panels-worth-it-2026",
+      "file": "content/energy/are-solar-panels-worth-it-2026.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3780,
+      "bodySha256": "83b78898f9632a60b7d01f356b8ec0a0bb373087d70a8f6f6e711f0ca3167034",
+      "metadata": {
+        "h1": "Are Solar Panels Worth It in 2026? A Simple Homeowner Guide",
+        "title": "Are Solar Panels Worth It in 2026? | Grow Here",
+        "description": "Are solar panels worth it in 2026? Learn the key factors: electricity prices, roof suitability, self-use, batteries, tariffs, maintenance and payback.",
+        "canonical": "https://growhere.online/blog/are-solar-panels-worth-it-2026",
+        "links": [
+          "/energy/how-to-save-energy-at-home",
+          "/energy/home-battery-storage-explained",
+          "/energy/energy-efficient-appliances-guide"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/are-solar-panels-worth-it-2026.webp"
+        ],
+        "headline": "Are Solar Panels Worth It in 2026? A Simple Homeowner Guide",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/are-solar-panels-worth-it-2026.webp",
+        "ogDescription": "Are solar panels worth it in 2026? Learn the key factors: electricity prices, roof suitability, self-use, batteries, tariffs, maintenance and payback."
+      },
+      "verified": true
+    },
+    {
+      "slug": "energy-efficient-appliances-guide",
+      "file": "content/energy/energy-efficient-appliances-guide.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3232,
+      "bodySha256": "bb4848db0998c727865bedc18776cb268cdb0c6408f90246c9b5b6bc92501433",
+      "metadata": {
+        "h1": "Energy-Efficient Appliances: What to Look For Before You Buy",
+        "title": "Energy-Efficient Appliances: Buying Guide | Grow Here",
+        "description": "Learn how to compare energy-efficient appliances using labels, annual energy use, size, features and lifetime cost before you buy.",
+        "canonical": "https://growhere.online/blog/energy-efficient-appliances-guide",
+        "links": [
+          "/energy/how-to-save-energy-at-home",
+          "/energy/smart-thermostat-guide"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/energy-efficient-appliances-guide.webp"
+        ],
+        "headline": "Energy-Efficient Appliances: What to Look For Before You Buy",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/energy-efficient-appliances-guide.webp",
+        "ogDescription": "Learn how to compare energy-efficient appliances using labels, annual energy use, size, features and lifetime cost before you buy."
+      },
+      "verified": true
+    },
+    {
+      "slug": "home-battery-storage-explained",
+      "file": "content/energy/home-battery-storage-explained.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3663,
+      "bodySha256": "b79d7a6d575381319b14fe38d2fee54569ad6d120b8b36ca1f2d9498d1d10e1b",
+      "metadata": {
+        "h1": "Home Battery Storage Explained: Is a Battery Worth It Without Solar?",
+        "title": "Home Battery Storage Explained: Is It Worth It? | Grow Here",
+        "description": "Understand home battery storage, solar self-consumption, time-of-use tariffs, backup power, battery size and key questions before buying.",
+        "canonical": "https://growhere.online/blog/home-battery-storage-explained",
+        "links": [
+          "/energy/are-solar-panels-worth-it-2026",
+          "/energy/how-to-save-energy-at-home"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/home-battery-storage-explained.webp"
+        ],
+        "headline": "Home Battery Storage Explained: Is a Battery Worth It Without Solar?",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/home-battery-storage-explained.webp",
+        "ogDescription": "Understand home battery storage, solar self-consumption, time-of-use tariffs, backup power, battery size and key questions before buying."
+      },
+      "verified": true
+    },
+    {
+      "slug": "how-to-save-energy-at-home",
+      "file": "content/energy/how-to-save-energy-at-home.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 4619,
+      "bodySha256": "dc0dedcf6a0ca29ee77acf391f3fe65c06b1edcdd0e5114527b96ee96a404f1d",
+      "metadata": {
+        "h1": "How to Save Energy at Home: 20 Practical Ways to Cut Waste",
+        "title": "How to Save Energy at Home: 20 Practical Tips | Grow Here",
+        "description": "Learn how to save energy at home with simple heating, cooling, hot water, lighting, appliance and standby-power changes that reduce waste.",
+        "canonical": "https://growhere.online/blog/how-to-save-energy-at-home",
+        "links": [
+          "/energy/are-solar-panels-worth-it-2026",
+          "/energy/energy-efficient-appliances-guide",
+          "/energy/smart-thermostat-guide"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/how-to-save-energy-at-home.webp"
+        ],
+        "headline": "How to Save Energy at Home: 20 Practical Ways to Cut Waste",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/how-to-save-energy-at-home.webp",
+        "ogDescription": "Learn how to save energy at home with simple heating, cooling, hot water, lighting, appliance and standby-power changes that reduce waste."
+      },
+      "verified": true
+    },
+    {
+      "slug": "smart-thermostat-guide",
+      "file": "content/energy/smart-thermostat-guide.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3055,
+      "bodySha256": "f80c327abf1dfd836394fd11e82d1121cf6e84c62d9e83736018c66b1d09ed69",
+      "metadata": {
+        "h1": "Smart Thermostat Guide: Save Energy Without Sacrificing Comfort",
+        "title": "Smart Thermostat Guide: Energy Saving & Setup Tips | Grow Here",
+        "description": "Learn how a smart thermostat can improve heating and cooling schedules, what features matter and how to use it without wasting energy.",
+        "canonical": "https://growhere.online/blog/smart-thermostat-guide",
+        "links": [
+          "/energy/how-to-save-energy-at-home",
+          "/energy/energy-efficient-appliances-guide"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/smart-thermostat-guide.webp"
+        ],
+        "headline": "Smart Thermostat Guide: Save Energy Without Sacrificing Comfort",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/smart-thermostat-guide.webp",
+        "ogDescription": "Learn how a smart thermostat can improve heating and cooling schedules, what features matter and how to use it without wasting energy."
+      },
+      "verified": true
+    },
+    {
+      "slug": "7-day-digital-detox",
+      "file": "content/life/7-day-digital-detox.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3206,
+      "bodySha256": "17b4d192789f0527191914fc5739aec76c8e730c119d2870676635afcc8ae351",
+      "metadata": {
+        "h1": "7-Day Digital Detox: A Realistic Plan to Reduce Screen Time",
+        "title": "7-Day Digital Detox Plan to Reduce Screen Time | Grow Here",
+        "description": "Try this realistic 7-day digital detox to reduce unnecessary screen time, calm notifications and rebuild healthier phone habits without going offline.",
+        "canonical": "https://growhere.online/blog/7-day-digital-detox",
+        "links": [
+          "/life/digital-minimalism-guide",
+          "/life/mindful-morning-routine"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/7-day-digital-detox.webp"
+        ],
+        "headline": "7-Day Digital Detox: A Realistic Plan to Reduce Screen Time",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/7-day-digital-detox.webp",
+        "ogDescription": "Try this realistic 7-day digital detox to reduce unnecessary screen time, calm notifications and rebuild healthier phone habits without going offline."
+      },
+      "verified": true
+    },
+    {
+      "slug": "digital-minimalism-guide",
+      "file": "content/life/digital-minimalism-guide.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3280,
+      "bodySha256": "8cbfafccc78d8bda04ed4f3c36056651e661561d94cff71631137a61f9675b7e",
+      "metadata": {
+        "h1": "Digital Minimalism: A Practical Guide to Reclaim Your Attention",
+        "title": "Digital Minimalism: Practical Guide to Reclaim Focus | Grow Here",
+        "description": "Use digital minimalism to reduce low-value screen time, simplify apps and notifications, and build a calmer, more intentional relationship with technology.",
+        "canonical": "https://growhere.online/blog/digital-minimalism-guide",
+        "links": [
+          "/life/7-day-digital-detox",
+          "/life/underconsumption-buy-less",
+          "/life/slow-living-for-busy-people"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/digital-minimalism-guide.webp"
+        ],
+        "headline": "Digital Minimalism: A Practical Guide to Reclaim Your Attention",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/digital-minimalism-guide.webp",
+        "ogDescription": "Use digital minimalism to reduce low-value screen time, simplify apps and notifications, and build a calmer, more intentional relationship with technology."
+      },
+      "verified": true
+    },
+    {
+      "slug": "mindful-morning-routine",
+      "file": "content/life/mindful-morning-routine.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 2814,
+      "bodySha256": "d779d99be794b03d26135041d68772c0ec25f8aee67e08cf2d068d91f9fc20cd",
+      "metadata": {
+        "h1": "Mindful Morning Routine: A Simple 30-Minute Start to the Day",
+        "title": "Mindful Morning Routine: Simple 30-Minute Plan | Grow Here",
+        "description": "Build a mindful morning routine in 30 minutes with light, hydration, movement, planning and less phone use - without an unrealistic 5 a.m. schedule.",
+        "canonical": "https://growhere.online/blog/mindful-morning-routine",
+        "links": [
+          "/life/7-day-digital-detox",
+          "/life/slow-living-for-busy-people"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/mindful-morning-routine.webp"
+        ],
+        "headline": "Mindful Morning Routine: A Simple 30-Minute Start to the Day",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/mindful-morning-routine.webp",
+        "ogDescription": "Build a mindful morning routine in 30 minutes with light, hydration, movement, planning and less phone use - without an unrealistic 5 a.m. schedule."
+      },
+      "verified": true
+    },
+    {
+      "slug": "slow-living-for-busy-people",
+      "file": "content/life/slow-living-for-busy-people.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3151,
+      "bodySha256": "667322caded61a1b9d657e51780e677f71dde6bd55dadf34638086520174d86d",
+      "metadata": {
+        "h1": "Slow Living for Busy People: 10 Small Changes That Make Life Feel Less Rushed",
+        "title": "Slow Living for Busy People: 10 Realistic Habits | Grow Here",
+        "description": "Try slow living without changing your whole life. Use 10 practical habits for calmer mornings, less rushing, better attention and more intentional time.",
+        "canonical": "https://growhere.online/blog/slow-living-for-busy-people",
+        "links": [
+          "/life/digital-minimalism-guide",
+          "/life/mindful-morning-routine"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/slow-living-for-busy-people.webp"
+        ],
+        "headline": "Slow Living for Busy People: 10 Small Changes That Make Life Feel Less Rushed",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/slow-living-for-busy-people.webp",
+        "ogDescription": "Try slow living without changing your whole life. Use 10 practical habits for calmer mornings, less rushing, better attention and more intentional time."
+      },
+      "verified": true
+    },
+    {
+      "slug": "underconsumption-buy-less",
+      "file": "content/life/underconsumption-buy-less.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false,
+      "differences": [],
+      "bodyCharacters": 3368,
+      "bodySha256": "bc16bb81e29883c25bc48ead10a36321800f1a16bbcb19d93b2b70da9f28e99c",
+      "metadata": {
+        "h1": "Underconsumption: How to Buy Less Without Feeling Deprived",
+        "title": "Underconsumption: How to Buy Less and Use More | Grow Here",
+        "description": "Learn practical underconsumption habits: use what you own, delay impulse purchases, repair more, buy secondhand and spend with intention.",
+        "canonical": "https://growhere.online/blog/underconsumption-buy-less",
+        "links": [
+          "/life/digital-minimalism-guide",
+          "/life/slow-living-for-busy-people"
+        ],
+        "inlineImages": [],
+        "image": [
+          "https://growhere.online/images/posts/underconsumption-buy-less.webp"
+        ],
+        "headline": "Underconsumption: How to Buy Less Without Feeling Deprived",
+        "publishedAt": "2026-09-06",
+        "updatedAt": "2026-09-06",
+        "authorNames": [
+          "Grow Here Editorial"
+        ],
+        "ogImage": "https://growhere.online/images/posts/underconsumption-buy-less.webp",
+        "ogDescription": "Learn practical underconsumption habits: use what you own, delay impulse purchases, repair more, buy secondhand and spend with intention."
+      },
+      "verified": true
+    }
+  ]
+}

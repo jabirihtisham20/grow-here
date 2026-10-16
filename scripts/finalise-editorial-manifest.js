@@ -1,0 +1,44 @@
+const fs=require('node:fs');
+const matter=require('gray-matter');
+const batch=require('./editorial-batch');
+const assessments={
+ 'peat-free-compost-watering-diagnosis':['RHS general guidance is detailed; generic peat-free advice is not an easy gap.','Narrow diagnosis of conflicting surface and root-zone clues.','balcony-herb-garden;mini-garden-ideas-small-spaces','Seasonal spring/summer relevance inferred; winter drainage also relevant.'],
+ 'balcony-wind-protection-plants-uk':['Search returned RHS, a specialist flower site and balcony-focused articles; no verified rank positions.','Permission-aware move/change/screen decision ladder rather than another plant list.','balcony-herb-garden;mini-garden-ideas-small-spaces','Wind and autumn preparation: editorial inference, no Trends measurement.'],
+ 'autumn-pollinator-container-plan-uk':['RHS and Which? offer strong plant selections; generic list competition is substantial qualitatively.','A container flowering-gap worksheet and one-pot experiment with honest observation limits.','balcony-herb-garden;mini-garden-ideas-small-spaces','Autumn timing is seasonal inference, not a rising-trend measurement.'],
+ 'balcony-wormery-winter-uk':['RHS winter and wormery sources already answer general care.','Go/no-go capacity and backup-disposal decision for flats without a shed.','mini-garden-ideas-small-spaces;balcony-herb-garden','Winter constraint is seasonal; demand unverified.'],
+ 'overwinter-strawberries-in-pots-uk':['RHS growing/winter pages and a specialist overwintering article surfaced.','Separate wet, cold and wind risks before choosing container protection.','mini-garden-ideas-small-spaces;balcony-herb-garden','Autumn/winter preparation is inferred seasonal relevance.'],
+ 'winter-condensation-observation-checklist':['Energy Saving Trust has comprehensive damp/ventilation advice.','Observation record for investigation, with no tenant-blame or diagnostic claim.','small-apartment-organization-ideas;how-to-save-energy-at-home','Cold-season relevance inferred; no measured trajectory.'],
+ 'dry-laundry-small-flat-winter':['Search surfaced extensive product-led laundry/dehumidifier coverage and EST advice.','Room suitability and complete-task comparison rather than product recommendation.','small-apartment-organization-ideas;how-to-save-energy-at-home','Winter relevance inferred; no UK volume measurement.'],
+ 'fridge-eat-first-box-food-safety':['FSA and FSS provide safety rules; query evidence is primarily adjacent storage intent.','A priority zone that retains labels and separates raw foods; exact-query demand unverified.','small-kitchen-organization-ideas;small-apartment-organization-ideas','Evergreen household task; sustainable demand is not measured.'],
+ 'freezer-inventory-power-cut-plan':['FSA/GOV.UK and a preparedness guide surfaced; official safety information is strong.','External inventory and an uncertainty record, not a competing time-limit chart.','small-kitchen-organization-ideas;small-apartment-organization-ideas','Outage preparation is evergreen with possible seasonal relevance, unmeasured.'],
+ 'under-sink-leak-checklist':['WaterSafe has direct practical leak guidance.','Describe observations and preserve repair access before storage layout changes.','small-kitchen-organization-ideas;small-apartment-organization-ideas','Evergreen maintenance intent; demand unverified.'],
+ 'plug-in-energy-monitor-rented-flat':['CSE monitoring guidance and electrical-safety sources support the method; no SERP difficulty score.','Compatible appliance measurement without alterations to rental wiring.','how-to-save-energy-at-home;energy-efficient-appliances-guide','Evergreen measurement task; trend unverified.'],
+ 'letterbox-draught-proofing-checks':['CSE/EST, product listings, government fire-door guidance and DIY questions surfaced.','Door suitability and fire-door permission checks before a fitting choice.','how-to-save-energy-at-home;small-apartment-organization-ideas','Cold-season interest inferred, not measured.'],
+ 'washing-machine-repair-replace-calculation':['EST maintenance, safety guidance and official energy-label documentation were reviewed.','Transparent break-even with complete installation costs and uncertain remaining life.','energy-efficient-appliances-guide;underconsumption-buy-less','Evergreen replacement decision; actual demand unverified.'],
+ 'dehumidifier-running-cost-calculation':['Search returned multiple large lifestyle/product publications; no basis to claim low competition.','Measured-session and time-band arithmetic, with no borrowed live tariff claim.','how-to-save-energy-at-home;energy-efficient-appliances-guide','Winter relevance inferred; no measured growth.'],
+ 'smart-meter-display-bill-difference':['Ofgem, EST and supplier documentation surfaced; official help is strong.','Five-field reconciliation and a supplier query record instead of a fault diagnosis.','how-to-save-energy-at-home;smart-thermostat-guide','Evergreen billing intent; no measured trend.'],
+ 'household-phone-boundaries-emergency-contact':['Apple/Android documentation supports settings; household query demand is not established.','Care-aware agreement and real-device testing with a backup contact route.','digital-minimalism-guide;slow-living-for-busy-people','Evergreen practical workflow; demand remains a higher uncertainty.'],
+ 'unsubscribe-marketing-keep-important-emails':['ICO and NCSC directly cover unwanted email and suspicious-message reporting.','Preserve essential account messages while testing reversible filters.','digital-minimalism-guide;7-day-digital-detox','Evergreen inbox task; volume and growth unverified.'],
+ 'repair-cafe-first-visit-checklist-uk':['Repair Café directory/FAQ and UK Share and Repair pages surfaced.','Fault card, acceptance check and outcome record for a first visit.','underconsumption-buy-less;slow-living-for-busy-people','Evergreen local-service preparation; no measured trend.'],
+ 'library-of-things-borrow-versus-buy':['Primary lending services describe booking and terms; local intent depends on actual availability.','Full occasion cost including journeys, deposits and repeat-use scenarios.','underconsumption-buy-less;vertical-storage-ideas-small-homes','Evergreen purchase decision; geographic availability limits audience.'],
+ 'photo-declutter-backup-checklist':['NCSC and provider documentation strongly cover backups; exact-query demand unverified.','Map synchronised copies, test restore and delete in reviewed batches.','digital-minimalism-guide;underconsumption-buy-less','Evergreen household information task; no measured trajectory.'],
+};
+const entries=batch.map(([category,slug])=>{
+ const file=`content/${category}/${slug}.mdx`;const {data:d,content}=matter(fs.readFileSync(file,'utf8'));
+ const a=assessments[slug];const links=[...content.matchAll(/\]\((https:\/\/[^)]+)\)/g)].map(m=>m[1]);
+ return {title:d.title,category,slug,file,url:`https://growhere.online/blog/${slug}`,preview:`/preview/${category}/${slug}`,status:d.status==='published'?'LOCAL_MDX_PUBLISHED':'LOCAL_MDX_DRAFT',cmsImported:false,
+ primaryLongTail:d.primaryKeyword,primaryShortTail:(d.tags||[])[0],secondaryKeywords:d.secondaryKeywords,
+ searchIntent:'Practical informational / decision support (editorial inference)',monthlyUKVolume:'unverified',keywordDifficulty:'unverified',trendTrajectory:'unverified',
+ evidenceChecked:'2026-10-16',evidenceLinks:[...new Set(links)],competingContentObservation:a[0],originalInformationGap:a[1],
+ internalLinkOpportunities:a[2].split(';').map(x=>`/blog/${x}`),seasonalityAssessment:a[3],
+ businessValue:'Audience fit and useful onward reading; conversion value unmeasured',cannibalisation:'Local inventory reviewed for distinct intent; database and Search Console audit unavailable',
+ draftWordCount:content.replace(/<[^>]*>/g,' ').split(/\s+/).filter(Boolean).length,
+ editorialReview:'Reviewed for the file-based migration release; local published status does not establish live deployment; browser QA unavailable',
+ image:{url:d.image,alt:d.imageAlt,source:'Original repository-drawn illustration',attributionRequired:false},
+ };
+});
+fs.writeFileSync('reports/uk-editorial/final-manifest.json',JSON.stringify(entries,null,2));
+const header='| Title | Category | Target keyword | Slug | Status |\n| --- | --- | --- | --- | --- |\n';
+const table=entries.map(e=>`| ${e.title} | ${e.category} | ${e.primaryLongTail} | ${e.slug} | ${e.status} |`).join('\n');
+fs.writeFileSync('reports/uk-editorial/article-list.md',`# Twenty UK editorial articles\n\nStatus reflects the local file release. See reports/mdx-migration for deployment verification; local status alone does not prove live publication.\n\n${header}${table}\n`);
+console.log(`Wrote final manifest for ${entries.length} articles. Word counts: ${Math.min(...entries.map(e=>e.draftWordCount))}–${Math.max(...entries.map(e=>e.draftWordCount))}.`);

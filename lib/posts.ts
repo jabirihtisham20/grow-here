@@ -1,6 +1,4 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
+import { readContentPosts } from './blog-content.js';
 
 export * from './categories';
 import { CategoryKey, CATEGORIES } from './categories';
@@ -31,95 +29,13 @@ export interface Post {
   metaDescription?: string;
   primaryKeyword?: string;
   secondaryKeywords?: string[];
+  relatedPosts?: string[];
   noindex?: boolean;
   content: string;
 }
 
-const CONTENT_DIR = path.join(process.cwd(), 'content');
-
 export function getAllPosts(includeDrafts = false): Post[] {
-  const categories: CategoryKey[] = ['grow', 'space', 'energy', 'life'];
-  const allPosts: Post[] = [];
-
-  for (const category of categories) {
-    const categoryDir = path.join(CONTENT_DIR, category);
-    if (!fs.existsSync(categoryDir)) continue;
-
-    const filenames = fs.readdirSync(categoryDir).filter((file) => file.endsWith('.mdx') || file.endsWith('.md'));
-
-    for (const filename of filenames) {
-      const filePath = path.join(categoryDir, filename);
-      const fileContents = fs.readFileSync(filePath, 'utf8');
-      const { data, content } = matter(fileContents);
-      // Keystatic's slug field controls the entry filename. Use that canonical
-      // identifier so renaming a slug cannot leave a stale frontmatter slug behind.
-      const slug = filename.replace(/\.(mdx|md)$/, '');
-      const publishedAt = data.publishedAt instanceof Date
-        ? data.publishedAt.toISOString().slice(0, 10)
-        : data.publishedAt;
-
-      // Older entries predate the explicit status field; the CMS default is published.
-      const status = data.status === 'draft'
-        ? 'draft'
-        : data.status === undefined || data.status === 'published'
-          ? 'published'
-          : undefined;
-      // Invalid or incomplete entries should never leak onto public pages.
-      if (!status || (!includeDrafts && status !== 'published')) {
-        continue;
-      }
-
-      if (!slug || typeof data.title !== 'string' || !data.title.trim() ||
-          typeof data.description !== 'string' || !data.description.trim() ||
-          typeof publishedAt !== 'string' || Number.isNaN(Date.parse(publishedAt))) continue;
-
-      allPosts.push({
-        slug,
-        title: data.title || 'Untitled',
-        description: data.description || '',
-        // The collection directory is authoritative; the editable frontmatter label
-        // must not move an entry onto a different category route.
-        category,
-        subcategory: data.subcategory || 'General',
-        author: data.author || {
-          name: 'Grow Here Editorial',
-          role: 'Staff Writer',
-          avatar: '/images/authors/editorial.webp',
-        },
-        publishedAt,
-        updatedAt: data.updatedAt,
-        image: typeof data.image === 'string' ? data.image : '',
-        imageAlt: data.imageAlt || data.title || '',
-        featured: Boolean(data.featured),
-        editorsPick: Boolean(data.editorsPick),
-        status,
-        readingTime: data.readingTime || '5 min read',
-        tags: Array.isArray(data.tags) ? data.tags : [],
-        seoTitle: data.seoTitle || undefined,
-        metaDescription: data.metaDescription || undefined,
-        primaryKeyword: data.primaryKeyword || undefined,
-        secondaryKeywords: Array.isArray(data.secondaryKeywords) ? data.secondaryKeywords : [],
-        noindex: Boolean(data.noindex),
-        content,
-      });
-    }
-  }
-
-  if (!includeDrafts) {
-    const slugOwners = new Map<string, CategoryKey>();
-    for (const post of allPosts) {
-      const owner = slugOwners.get(post.slug);
-      if (owner) {
-        throw new Error(
-          `Duplicate public blog slug "${post.slug}" in collections "${owner}" and "${post.category}". Blog slugs must be unique across collections.`
-        );
-      }
-      slugOwners.set(post.slug, post.category);
-    }
-  }
-
-  // Sort by published date descending
-  return allPosts.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  return readContentPosts(includeDrafts);
 }
 
 export function getPostsByCategory(category: CategoryKey, includeDrafts = false): Post[] {
@@ -165,6 +81,10 @@ export function getPopularGuides(): Post[] {
 }
 
 export function getRelatedPosts(currentSlug: string, category: CategoryKey, tags: string[] = [], limit = 3): Post[] {
+  const current = getPostByAnySlug(currentSlug, true);
+  const explicit = (current?.relatedPosts || [])
+    .map((slug) => getPostByAnySlug(slug))
+    .filter((post): post is Post => Boolean(post) && post!.slug !== currentSlug);
   const categoryPosts = getPostsByCategory(category).filter((p) => p.slug !== currentSlug);
 
   // Score posts based on matching tags
@@ -173,14 +93,16 @@ export function getRelatedPosts(currentSlug: string, category: CategoryKey, tags
     for (const tag of tags) {
       if (post.tags.includes(tag)) score += 2;
     }
-    if (post.subcategory === categoryPosts.find((p) => p.slug === currentSlug)?.subcategory) {
+    if (post.subcategory === current?.subcategory) {
       score += 1;
     }
     return { post, score };
   });
 
   scored.sort((a, b) => b.score - a.score);
-  const results = scored.slice(0, limit).map((item) => item.post);
+  const results = [...explicit, ...scored.map((item) => item.post)]
+    .filter((post, index, posts) => posts.findIndex((p) => p.slug === post.slug) === index)
+    .slice(0, limit);
 
   // Fallback if not enough scored posts
   if (results.length < limit) {

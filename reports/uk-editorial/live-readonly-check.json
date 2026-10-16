@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-16T12:40:32.188Z",
+  "method": "Public read-only HTTP GET; no credentials, writes or publication",
+  "results": [
+    {
+      "route": "/blog",
+      "status": 200,
+      "finalUrl": "https://growhere.online/blog",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "route": "/blog/fkkj",
+      "status": 200,
+      "finalUrl": "https://growhere.online/blog/fkkj",
+      "contentType": "text/html; charset=utf-8",
+      "placeholderObserved": true
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://growhere.online/sitemap.xml",
+      "contentType": "application/xml",
+      "blogUrls": [
+        "https://growhere.online/blog/fkkj",
+        "https://growhere.online/blog/balcony-herb-garden",
+        "https://growhere.online/blog/best-low-light-indoor-plants-apartments",
+        "https://growhere.online/blog/how-to-create-a-greener-calmer-home",
+        "https://growhere.online/blog/how-to-grow-microgreens-indoors",
+        "https://growhere.online/blog/hydroponics-for-beginners",
+        "https://growhere.online/blog/mini-garden-ideas-small-spaces",
+        "https://growhere.online/blog/80-20-decluttering-method",
+        "https://growhere.online/blog/room-by-room-decluttering-checklist",
+        "https://growhere.online/blog/small-apartment-organization-ideas",
+        "https://growhere.online/blog/small-kitchen-organization-ideas",
+        "https://growhere.online/blog/vertical-storage-ideas-small-homes",
+        "https://growhere.online/blog/are-solar-panels-worth-it-2026",
+        "https://growhere.online/blog/energy-efficient-appliances-guide",
+        "https://growhere.online/blog/home-battery-storage-explained",
+        "https://growhere.online/blog/how-to-save-energy-at-home",
+        "https://growhere.online/blog/smart-thermostat-guide",
+        "https://growhere.online/blog/7-day-digital-detox",
+        "https://growhere.online/blog/digital-minimalism-guide",
+        "https://growhere.online/blog/mindful-morning-routine",
+        "https://growhere.online/blog/slow-living-for-busy-people",
+        "https://growhere.online/blog/underconsumption-buy-less"
+      ]
+    },
+    {
+      "route": "/api/posts?limit=50",
+      "status": 500,
+      "finalUrl": "https://growhere.online/api/posts?limit=50",
+      "contentType": "application/json"
+    }
+  ]
+}

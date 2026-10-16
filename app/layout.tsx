@@ -1,22 +1,29 @@
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { SITE_CONFIG, generateWebsiteSchema, generateOrganizationSchema } from '@/lib/seo';
 
-const inter = Inter({
-  subsets: ['latin'],
+const inter = localFont({
+  src: [
+    { path: './fonts/inter-400.woff2', weight: '400', style: 'normal' },
+    { path: './fonts/inter-500.woff2', weight: '500', style: 'normal' },
+    { path: './fonts/inter-600.woff2', weight: '600', style: 'normal' },
+    { path: './fonts/inter-700.woff2', weight: '700', style: 'normal' },
+  ],
   display: 'swap',
   variable: '--font-sans',
-  weight: ['400', '500', '600', '700'],
 });
 
-const playfair = Playfair_Display({
-  subsets: ['latin'],
+const playfair = localFont({
+  src: [
+    { path: './fonts/playfair-display-400.woff2', weight: '400', style: 'normal' },
+    { path: './fonts/playfair-display-600.woff2', weight: '600', style: 'normal' },
+    { path: './fonts/playfair-display-700.woff2', weight: '700', style: 'normal' },
+  ],
   display: 'swap',
   variable: '--font-serif',
-  weight: ['400', '600', '700'],
 });
 
 export const metadata: Metadata = {

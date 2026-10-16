@@ -1,0 +1,23 @@
+// Explicit allowlist: never infer the editorial batch from every draft in the CMS.
+module.exports = [
+ ['grow','peat-free-compost-watering-diagnosis'],
+ ['grow','balcony-wind-protection-plants-uk'],
+ ['grow','autumn-pollinator-container-plan-uk'],
+ ['grow','balcony-wormery-winter-uk'],
+ ['grow','overwinter-strawberries-in-pots-uk'],
+ ['space','winter-condensation-observation-checklist'],
+ ['space','dry-laundry-small-flat-winter'],
+ ['space','fridge-eat-first-box-food-safety'],
+ ['space','freezer-inventory-power-cut-plan'],
+ ['space','under-sink-leak-checklist'],
+ ['energy','plug-in-energy-monitor-rented-flat'],
+ ['energy','letterbox-draught-proofing-checks'],
+ ['energy','washing-machine-repair-replace-calculation'],
+ ['energy','dehumidifier-running-cost-calculation'],
+ ['energy','smart-meter-display-bill-difference'],
+ ['life','household-phone-boundaries-emergency-contact'],
+ ['life','unsubscribe-marketing-keep-important-emails'],
+ ['life','repair-cafe-first-visit-checklist-uk'],
+ ['life','library-of-things-borrow-versus-buy'],
+ ['life','photo-declutter-backup-checklist'],
+];

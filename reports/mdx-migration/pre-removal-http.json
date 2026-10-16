@@ -1,0 +1,228 @@
+{
+  "checkedAt": "2026-10-16T17:04:42.483Z",
+  "origin": "http://127.0.0.1:3007",
+  "published": 21,
+  "drafts": 20,
+  "originalsPreserved": 21,
+  "sitemapExactMatch": true,
+  "categoryDiscovery": true,
+  "removedRoute404": [
+    "/blog/fkkj",
+    "/grow/fkkj",
+    "/blog/this-article-does-not-exist"
+  ],
+  "retiredCMS": false,
+  "results": [
+    {
+      "slug": "balcony-herb-garden",
+      "canonical": "https://growhere.online/blog/balcony-herb-garden",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "best-low-light-indoor-plants-apartments",
+      "canonical": "https://growhere.online/blog/best-low-light-indoor-plants-apartments",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "how-to-create-a-greener-calmer-home",
+      "canonical": "https://growhere.online/blog/how-to-create-a-greener-calmer-home",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "how-to-grow-microgreens-indoors",
+      "canonical": "https://growhere.online/blog/how-to-grow-microgreens-indoors",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "hydroponics-for-beginners",
+      "canonical": "https://growhere.online/blog/hydroponics-for-beginners",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "mini-garden-ideas-small-spaces",
+      "canonical": "https://growhere.online/blog/mini-garden-ideas-small-spaces",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "80-20-decluttering-method",
+      "canonical": "https://growhere.online/blog/80-20-decluttering-method",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "room-by-room-decluttering-checklist",
+      "canonical": "https://growhere.online/blog/room-by-room-decluttering-checklist",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "small-apartment-organization-ideas",
+      "canonical": "https://growhere.online/blog/small-apartment-organization-ideas",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "small-kitchen-organization-ideas",
+      "canonical": "https://growhere.online/blog/small-kitchen-organization-ideas",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "vertical-storage-ideas-small-homes",
+      "canonical": "https://growhere.online/blog/vertical-storage-ideas-small-homes",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "are-solar-panels-worth-it-2026",
+      "canonical": "https://growhere.online/blog/are-solar-panels-worth-it-2026",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "energy-efficient-appliances-guide",
+      "canonical": "https://growhere.online/blog/energy-efficient-appliances-guide",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "home-battery-storage-explained",
+      "canonical": "https://growhere.online/blog/home-battery-storage-explained",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "how-to-save-energy-at-home",
+      "canonical": "https://growhere.online/blog/how-to-save-energy-at-home",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "smart-thermostat-guide",
+      "canonical": "https://growhere.online/blog/smart-thermostat-guide",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "7-day-digital-detox",
+      "canonical": "https://growhere.online/blog/7-day-digital-detox",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "digital-minimalism-guide",
+      "canonical": "https://growhere.online/blog/digital-minimalism-guide",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "mindful-morning-routine",
+      "canonical": "https://growhere.online/blog/mindful-morning-routine",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "slow-living-for-busy-people",
+      "canonical": "https://growhere.online/blog/slow-living-for-busy-people",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "underconsumption-buy-less",
+      "canonical": "https://growhere.online/blog/underconsumption-buy-less",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    }
+  ],
+  "browserQA": "Not executed; HTTP HTML validation only"
+}

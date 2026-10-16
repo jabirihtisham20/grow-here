@@ -1,0 +1,589 @@
+{
+  "checkedAt": "2026-10-16T17:20:40.186Z",
+  "files": 41,
+  "published": 41,
+  "drafts": 0,
+  "genuineOriginals": 21,
+  "originalSourceHashesPreserved": true,
+  "originalChanges": [],
+  "testExcluded": true,
+  "mdxCompilation": true,
+  "duplicateSlugs": "Rejected by shared loader across drafts and published files",
+  "imageResults": [
+    {
+      "slug": "autumn-pollinator-container-plan-uk",
+      "url": "/images/posts/autumn-pollinator-container-plan-uk.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 9564
+    },
+    {
+      "slug": "autumn-pollinator-container-plan-uk",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "balcony-wind-protection-plants-uk",
+      "url": "/images/posts/balcony-wind-protection-plants-uk.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8090
+    },
+    {
+      "slug": "balcony-wind-protection-plants-uk",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "balcony-wormery-winter-uk",
+      "url": "/images/posts/balcony-wormery-winter-uk.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 7126
+    },
+    {
+      "slug": "balcony-wormery-winter-uk",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "overwinter-strawberries-in-pots-uk",
+      "url": "/images/posts/overwinter-strawberries-in-pots-uk.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 7942
+    },
+    {
+      "slug": "overwinter-strawberries-in-pots-uk",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "peat-free-compost-watering-diagnosis",
+      "url": "/images/posts/peat-free-compost-watering-diagnosis.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8290
+    },
+    {
+      "slug": "peat-free-compost-watering-diagnosis",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "dry-laundry-small-flat-winter",
+      "url": "/images/posts/dry-laundry-small-flat-winter.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 9542
+    },
+    {
+      "slug": "dry-laundry-small-flat-winter",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "freezer-inventory-power-cut-plan",
+      "url": "/images/posts/freezer-inventory-power-cut-plan.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8218
+    },
+    {
+      "slug": "freezer-inventory-power-cut-plan",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "fridge-eat-first-box-food-safety",
+      "url": "/images/posts/fridge-eat-first-box-food-safety.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8998
+    },
+    {
+      "slug": "fridge-eat-first-box-food-safety",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "under-sink-leak-checklist",
+      "url": "/images/posts/under-sink-leak-checklist.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8606
+    },
+    {
+      "slug": "under-sink-leak-checklist",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "winter-condensation-observation-checklist",
+      "url": "/images/posts/winter-condensation-observation-checklist.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 6548
+    },
+    {
+      "slug": "winter-condensation-observation-checklist",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "dehumidifier-running-cost-calculation",
+      "url": "/images/posts/dehumidifier-running-cost-calculation.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 9924
+    },
+    {
+      "slug": "dehumidifier-running-cost-calculation",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "letterbox-draught-proofing-checks",
+      "url": "/images/posts/letterbox-draught-proofing-checks.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8626
+    },
+    {
+      "slug": "letterbox-draught-proofing-checks",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "plug-in-energy-monitor-rented-flat",
+      "url": "/images/posts/plug-in-energy-monitor-rented-flat.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 9152
+    },
+    {
+      "slug": "plug-in-energy-monitor-rented-flat",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "smart-meter-display-bill-difference",
+      "url": "/images/posts/smart-meter-display-bill-difference.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8466
+    },
+    {
+      "slug": "smart-meter-display-bill-difference",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "washing-machine-repair-replace-calculation",
+      "url": "/images/posts/washing-machine-repair-replace-calculation.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 9026
+    },
+    {
+      "slug": "washing-machine-repair-replace-calculation",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "household-phone-boundaries-emergency-contact",
+      "url": "/images/posts/household-phone-boundaries-emergency-contact.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8344
+    },
+    {
+      "slug": "household-phone-boundaries-emergency-contact",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "library-of-things-borrow-versus-buy",
+      "url": "/images/posts/library-of-things-borrow-versus-buy.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8586
+    },
+    {
+      "slug": "library-of-things-borrow-versus-buy",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "photo-declutter-backup-checklist",
+      "url": "/images/posts/photo-declutter-backup-checklist.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8660
+    },
+    {
+      "slug": "photo-declutter-backup-checklist",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "repair-cafe-first-visit-checklist-uk",
+      "url": "/images/posts/repair-cafe-first-visit-checklist-uk.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 8022
+    },
+    {
+      "slug": "repair-cafe-first-visit-checklist-uk",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "unsubscribe-marketing-keep-important-emails",
+      "url": "/images/posts/unsubscribe-marketing-keep-important-emails.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 9496
+    },
+    {
+      "slug": "unsubscribe-marketing-keep-important-emails",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "balcony-herb-garden",
+      "url": "/images/posts/balcony-herb-garden.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 59894
+    },
+    {
+      "slug": "balcony-herb-garden",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "best-low-light-indoor-plants-apartments",
+      "url": "/images/posts/best-low-light-indoor-plants-apartments.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 63858
+    },
+    {
+      "slug": "best-low-light-indoor-plants-apartments",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "how-to-create-a-greener-calmer-home",
+      "url": "/images/posts/how-to-create-a-greener-calmer-home.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 128596
+    },
+    {
+      "slug": "how-to-create-a-greener-calmer-home",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "how-to-grow-microgreens-indoors",
+      "url": "/images/posts/how-to-grow-microgreens-indoors.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 98784
+    },
+    {
+      "slug": "how-to-grow-microgreens-indoors",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "hydroponics-for-beginners",
+      "url": "/images/posts/hydroponics-for-beginners.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 110780
+    },
+    {
+      "slug": "hydroponics-for-beginners",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "mini-garden-ideas-small-spaces",
+      "url": "/images/posts/mini-garden-ideas-small-spaces.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 242936
+    },
+    {
+      "slug": "mini-garden-ideas-small-spaces",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "80-20-decluttering-method",
+      "url": "/images/posts/80-20-decluttering-method.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 75470
+    },
+    {
+      "slug": "80-20-decluttering-method",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "room-by-room-decluttering-checklist",
+      "url": "/images/posts/room-by-room-decluttering-checklist.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 63454
+    },
+    {
+      "slug": "room-by-room-decluttering-checklist",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "small-apartment-organization-ideas",
+      "url": "/images/posts/small-apartment-organization-ideas.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 49122
+    },
+    {
+      "slug": "small-apartment-organization-ideas",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "small-kitchen-organization-ideas",
+      "url": "/images/posts/small-kitchen-organization-ideas.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 77656
+    },
+    {
+      "slug": "small-kitchen-organization-ideas",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "vertical-storage-ideas-small-homes",
+      "url": "/images/posts/vertical-storage-ideas-small-homes.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 53288
+    },
+    {
+      "slug": "vertical-storage-ideas-small-homes",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "are-solar-panels-worth-it-2026",
+      "url": "/images/posts/are-solar-panels-worth-it-2026.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 255372
+    },
+    {
+      "slug": "are-solar-panels-worth-it-2026",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "energy-efficient-appliances-guide",
+      "url": "/images/posts/energy-efficient-appliances-guide.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 86638
+    },
+    {
+      "slug": "energy-efficient-appliances-guide",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "home-battery-storage-explained",
+      "url": "/images/posts/home-battery-storage-explained.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 375688
+    },
+    {
+      "slug": "home-battery-storage-explained",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "how-to-save-energy-at-home",
+      "url": "/images/posts/how-to-save-energy-at-home.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 170818
+    },
+    {
+      "slug": "how-to-save-energy-at-home",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "smart-thermostat-guide",
+      "url": "/images/posts/smart-thermostat-guide.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 24252
+    },
+    {
+      "slug": "smart-thermostat-guide",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "7-day-digital-detox",
+      "url": "/images/posts/7-day-digital-detox.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 60434
+    },
+    {
+      "slug": "7-day-digital-detox",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "digital-minimalism-guide",
+      "url": "/images/posts/digital-minimalism-guide.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 46858
+    },
+    {
+      "slug": "digital-minimalism-guide",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "mindful-morning-routine",
+      "url": "/images/posts/mindful-morning-routine.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 224172
+    },
+    {
+      "slug": "mindful-morning-routine",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "slow-living-for-busy-people",
+      "url": "/images/posts/slow-living-for-busy-people.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 43348
+    },
+    {
+      "slug": "slow-living-for-busy-people",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    },
+    {
+      "slug": "underconsumption-buy-less",
+      "url": "/images/posts/underconsumption-buy-less.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 36268
+    },
+    {
+      "slug": "underconsumption-buy-less",
+      "url": "/images/authors/editorial.webp",
+      "width": 120,
+      "height": 120,
+      "bytes": 1776
+    }
+  ],
+  "issues": []
+}

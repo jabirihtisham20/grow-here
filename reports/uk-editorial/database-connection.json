@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-16T12:14:44.738Z",
+  "configuration": [
+    {
+      "file": ".env.local",
+      "definesDatabaseUrl": true,
+      "duplicateDefinitions": false,
+      "isEffectiveSource": true
+    },
+    {
+      "file": ".env",
+      "definesDatabaseUrl": false,
+      "duplicateDefinitions": false,
+      "isEffectiveSource": false
+    }
+  ],
+  "configured": true,
+  "connection": {
+    "protocol": "postgresql:",
+    "port": "5432",
+    "sslmode": "require",
+    "hasUsername": true,
+    "hasPassword": true,
+    "provider": "Neon",
+    "pooledEndpoint": false,
+    "literalPlaceholder": false
+  },
+  "connected": false,
+  "errorCode": "28P01",
+  "explanation": "Server rejected the supplied database username/password. SSL negotiation reached authentication; this is not a missing-table error."
+}

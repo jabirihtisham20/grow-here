@@ -1,0 +1,184 @@
+{
+  "checkedAt": "2026-10-16T13:06:24.296Z",
+  "captureDirectory": "data/migration-backups/2026-10-16T13-04-56-672Z/live-comparison",
+  "liveUrls": [
+    "https://growhere.online/blog/fkkj",
+    "https://growhere.online/blog/balcony-herb-garden",
+    "https://growhere.online/blog/best-low-light-indoor-plants-apartments",
+    "https://growhere.online/blog/how-to-create-a-greener-calmer-home",
+    "https://growhere.online/blog/how-to-grow-microgreens-indoors",
+    "https://growhere.online/blog/hydroponics-for-beginners",
+    "https://growhere.online/blog/mini-garden-ideas-small-spaces",
+    "https://growhere.online/blog/80-20-decluttering-method",
+    "https://growhere.online/blog/room-by-room-decluttering-checklist",
+    "https://growhere.online/blog/small-apartment-organization-ideas",
+    "https://growhere.online/blog/small-kitchen-organization-ideas",
+    "https://growhere.online/blog/vertical-storage-ideas-small-homes",
+    "https://growhere.online/blog/are-solar-panels-worth-it-2026",
+    "https://growhere.online/blog/energy-efficient-appliances-guide",
+    "https://growhere.online/blog/home-battery-storage-explained",
+    "https://growhere.online/blog/how-to-save-energy-at-home",
+    "https://growhere.online/blog/smart-thermostat-guide",
+    "https://growhere.online/blog/7-day-digital-detox",
+    "https://growhere.online/blog/digital-minimalism-guide",
+    "https://growhere.online/blog/mindful-morning-routine",
+    "https://growhere.online/blog/slow-living-for-busy-people",
+    "https://growhere.online/blog/underconsumption-buy-less"
+  ],
+  "rows": [
+    {
+      "slug": "balcony-herb-garden",
+      "file": "content/grow/balcony-herb-garden.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "best-low-light-indoor-plants-apartments",
+      "file": "content/grow/best-low-light-indoor-plants-apartments.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "fkkj",
+      "file": "content/grow/fkkj.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": true
+    },
+    {
+      "slug": "how-to-create-a-greener-calmer-home",
+      "file": "content/grow/how-to-create-a-greener-calmer-home.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "how-to-grow-microgreens-indoors",
+      "file": "content/grow/how-to-grow-microgreens-indoors.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "hydroponics-for-beginners",
+      "file": "content/grow/hydroponics-for-beginners.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "mini-garden-ideas-small-spaces",
+      "file": "content/grow/mini-garden-ideas-small-spaces.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "80-20-decluttering-method",
+      "file": "content/space/80-20-decluttering-method.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "room-by-room-decluttering-checklist",
+      "file": "content/space/room-by-room-decluttering-checklist.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "small-apartment-organization-ideas",
+      "file": "content/space/small-apartment-organization-ideas.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "small-kitchen-organization-ideas",
+      "file": "content/space/small-kitchen-organization-ideas.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "vertical-storage-ideas-small-homes",
+      "file": "content/space/vertical-storage-ideas-small-homes.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "are-solar-panels-worth-it-2026",
+      "file": "content/energy/are-solar-panels-worth-it-2026.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "energy-efficient-appliances-guide",
+      "file": "content/energy/energy-efficient-appliances-guide.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "home-battery-storage-explained",
+      "file": "content/energy/home-battery-storage-explained.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "how-to-save-energy-at-home",
+      "file": "content/energy/how-to-save-energy-at-home.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "smart-thermostat-guide",
+      "file": "content/energy/smart-thermostat-guide.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "7-day-digital-detox",
+      "file": "content/life/7-day-digital-detox.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "digital-minimalism-guide",
+      "file": "content/life/digital-minimalism-guide.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "mindful-morning-routine",
+      "file": "content/life/mindful-morning-routine.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "slow-living-for-busy-people",
+      "file": "content/life/slow-living-for-busy-people.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    },
+    {
+      "slug": "underconsumption-buy-less",
+      "file": "content/life/underconsumption-buy-less.mdx",
+      "liveStatus": 200,
+      "localStatus": 200,
+      "testing": false
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "checkedAt": "2026-10-16T12:38:29.823Z",
+  "method": "Direct HTTPS GET with redirects, no authentication",
+  "results": [
+    {
+      "url": "https://www.rhs.org.uk/container-gardening/how-to-water-containers",
+      "status": 200,
+      "finalUrl": "https://www.rhs.org.uk/container-gardening/how-to-water-containers",
+      "reachable": true
+    },
+    {
+      "url": "https://www.rhs.org.uk/plants/types/hedges/windbreaks-shelterbelts",
+      "status": 200,
+      "finalUrl": "https://www.rhs.org.uk/plants/types/hedges/windbreaks-shelterbelts",
+      "reachable": true
+    },
+    {
+      "url": "https://www.rhs.org.uk/garden-inspiration/garden-types/balconies-roof-gardens",
+      "status": 200,
+      "finalUrl": "https://www.rhs.org.uk/garden-inspiration/garden-types/balconies-roof-gardens",
+      "reachable": true
+    },
+    {
+      "url": "https://www.rhs.org.uk/garden-inspiration/wildlife/top-12-plants-for-autumn-pollinators",
+      "status": 200,
+      "finalUrl": "https://www.rhs.org.uk/garden-inspiration/wildlife/top-12-plants-for-autumn-pollinators",
+      "reachable": true
+    },
+    {
+      "url": "https://www.rhs.org.uk/wildlife/pots-and-container-habitats",
+      "status": 200,
+      "finalUrl": "https://www.rhs.org.uk/wildlife/pots-and-container-habitats",
+      "reachable": true
+    },
+    {
+      "url": "https://www.rhs.org.uk/soil-composts-mulches/worm-composting",
+      "status": 200,
+      "finalUrl": "https://www.rhs.org.uk/soil-composts-mulches/worm-composting",
+      "reachable": true
+    },
+    {
+      "url": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "status": 200,
+      "finalUrl": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "reachable": true
+    },
+    {
+      "url": "https://www.rhs.org.uk/prevention-protection/preventing-winter-damage",
+      "status": 200,
+      "finalUrl": "https://www.rhs.org.uk/prevention-protection/preventing-winter-damage",
+      "reachable": true
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/how-to-chill-freeze-and-defrost-food-safely/how-to-chill-freeze-and-defrost-food-safely",
+      "status": 200,
+      "finalUrl": "https://www.gov.uk/government/publications/how-to-chill-freeze-and-defrost-food-safely/how-to-chill-freeze-and-defrost-food-safely",
+      "reachable": true
+    },
+    {
+      "url": "https://www.foodstandards.gov.scot/consumer-advice/food-safety/food-safety-in-the-kitchen/chilling",
+      "status": 200,
+      "finalUrl": "https://www.foodstandards.gov.scot/consumer-advice/food-safety/food-safety-in-the-kitchen/chilling",
+      "reachable": true
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/food-safety-in-a-power-cut-advice-for-consumers/food-safety-in-a-power-cut-advice-for-consumers",
+      "status": 200,
+      "finalUrl": "https://www.gov.uk/government/publications/food-safety-in-a-power-cut-advice-for-consumers/food-safety-in-a-power-cut-advice-for-consumers",
+      "reachable": true
+    },
+    {
+      "url": "https://www.foodstandards.gov.scot/",
+      "status": 200,
+      "finalUrl": "https://www.foodstandards.gov.scot/",
+      "reachable": true
+    },
+    {
+      "url": "https://www.watersafe.org.uk/advice/common_plumbing_questions1/leaks/what_should_i_do_if_i_find_a_leak_in_or_around_my_home_or_business/",
+      "status": 200,
+      "finalUrl": "https://www.watersafe.org.uk/advice/common_plumbing_questions1/leaks/what_should_i_do_if_i_find_a_leak_in_or_around_my_home_or_business/",
+      "reachable": true
+    },
+    {
+      "url": "https://www.watersafe.org.uk/advice/general_plumbing_advice/",
+      "status": 200,
+      "finalUrl": "https://www.watersafe.org.uk/advice/general_plumbing_advice/",
+      "reachable": true
+    },
+    {
+      "url": "https://www.ect.cse.org.uk/u/advice/energy-monitoring",
+      "status": 200,
+      "finalUrl": "https://www.ect.cse.org.uk/u/advice/energy-monitoring",
+      "reachable": true
+    },
+    {
+      "url": "https://www.electricalsafetyfirst.org.uk/",
+      "status": 200,
+      "finalUrl": "https://www.electricalsafetyfirst.org.uk/",
+      "reachable": true
+    },
+    {
+      "url": "https://www.cse.org.uk/advice/diy-draught-proofing/",
+      "status": 200,
+      "finalUrl": "https://www.cse.org.uk/advice/diy-draught-proofing/",
+      "reachable": true
+    },
+    {
+      "url": "https://www.electricalsafetyfirst.org.uk/safety-advice/products-and-appliances/kitchen-appliances/washing-machines/",
+      "status": 200,
+      "finalUrl": "https://www.electricalsafetyfirst.org.uk/safety-advice/products-and-appliances/kitchen-appliances/washing-machines/",
+      "reachable": true
+    },
+    {
+      "url": "https://create-energy-label.service.gov.uk/api-documentation/endpoint/Washing%20machines%20and%20washer-dryers",
+      "status": 200,
+      "finalUrl": "https://create-energy-label.service.gov.uk/api-documentation/endpoint/Washing%20machines%20and%20washer-dryers",
+      "reachable": true
+    },
+    {
+      "url": "https://www.ofgem.gov.uk/getting-smart-meter",
+      "status": 200,
+      "finalUrl": "https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/get-help-your-smart-meter",
+      "reachable": true
+    },
+    {
+      "url": "https://support.apple.com/en-gb/guide/iphone/iphd6288a67f/ios",
+      "status": 200,
+      "finalUrl": "https://support.apple.com/en-gb/guide/iphone/iphd6288a67f/ios",
+      "reachable": true
+    },
+    {
+      "url": "https://support.google.com/android/answer/9069335?hl=en",
+      "status": 200,
+      "finalUrl": "https://support.google.com/android/answer/9069335?hl=en",
+      "reachable": true
+    },
+    {
+      "url": "https://ico.org.uk/for-the-public/online/spam-emails/",
+      "status": 200,
+      "finalUrl": "https://ico.org.uk/for-the-public/online/spam-emails/",
+      "reachable": true
+    },
+    {
+      "url": "https://www.ncsc.gov.uk/collection/phishing-scams/report-scam-email",
+      "status": 200,
+      "finalUrl": "https://www.ncsc.gov.uk/collection/phishing-scams/report-scam-email",
+      "reachable": true
+    },
+    {
+      "url": "https://www.repaircafe.org/en/visit/",
+      "status": 200,
+      "finalUrl": "https://www.repaircafe.org/en/visit/",
+      "reachable": true
+    },
+    {
+      "url": "https://www.repaircafe.org/en/faq/",
+      "status": 200,
+      "finalUrl": "https://www.repaircafe.org/en/faq/",
+      "reachable": true
+    },
+    {
+      "url": "https://www.libraryofthings.co.uk/",
+      "status": 200,
+      "finalUrl": "https://www.libraryofthings.co.uk/",
+      "reachable": true
+    },
+    {
+      "url": "https://libraryofthings.co.uk/terms-of-borrowing",
+      "status": 200,
+      "finalUrl": "https://libraryofthings.co.uk/terms-of-borrowing",
+      "reachable": true
+    },
+    {
+      "url": "https://support.apple.com/en-gb/108922",
+      "status": 200,
+      "finalUrl": "https://support.apple.com/en-gb/108922",
+      "reachable": true
+    },
+    {
+      "url": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data",
+      "status": 200,
+      "finalUrl": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data",
+      "reachable": true
+    },
+    {
+      "url": "https://www.rhs.org.uk/soil-composts-mulches/peat-free",
+      "status": 200,
+      "finalUrl": "https://www.rhs.org.uk/soil-composts-mulches/peat-free",
+      "reachable": true
+    },
+    {
+      "url": "https://www.gardenorganic.org.uk/news/winter-composting-tips",
+      "status": 200,
+      "finalUrl": "https://www.gardenorganic.org.uk/news/winter-composting-tips",
+      "reachable": true
+    },
+    {
+      "url": "https://energysavingtrust.org.uk/advice/ventilation/",
+      "status": 403,
+      "finalUrl": "https://energysavingtrust.org.uk/advice/ventilation/",
+      "reachable": false
+    },
+    {
+      "url": "https://energysavingtrust.org.uk/advice/fixing-damp-and-condensation/",
+      "status": 403,
+      "finalUrl": "https://energysavingtrust.org.uk/advice/fixing-damp-and-condensation/",
+      "reachable": false
+    },
+    {
+      "url": "https://energysavingtrust.org.uk/how-to-draught-proof-your-windows-and-doors/",
+      "status": 403,
+      "finalUrl": "https://energysavingtrust.org.uk/how-to-draught-proof-your-windows-and-doors/",
+      "reachable": false
+    },
+    {
+      "url": "https://energysavingtrust.org.uk/how-save-energy-when-using-your-washing-machine",
+      "status": 403,
+      "finalUrl": "https://energysavingtrust.org.uk/how-save-energy-when-using-your-washing-machine",
+      "reachable": false
+    },
+    {
+      "url": "https://energysavingtrust.org.uk/advice/guide-to-smart-meters/",
+      "status": 403,
+      "finalUrl": "https://energysavingtrust.org.uk/advice/guide-to-smart-meters/",
+      "reachable": false
+    }
+  ]
+}

@@ -1,0 +1,859 @@
+{
+  "branch": "chore/file-based-mdx-migration",
+  "files": [
+    {
+      "status": "M",
+      "file": ".env.example"
+    },
+    {
+      "status": "M",
+      "file": ".gitignore"
+    },
+    {
+      "status": "A",
+      "file": ".vercelignore"
+    },
+    {
+      "status": "M",
+      "file": "CONTENT-PUBLISHING.md"
+    },
+    {
+      "status": "M",
+      "file": "DATABASE-MIGRATION.md"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/activity/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/categories/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/layout.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/login/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/media/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/pages/[id]/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/pages/new/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/pages/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/posts/[id]/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/posts/new/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/posts/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/profile/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/roles/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/seo/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/settings/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/admin/users/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/activity/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/categories/[id]/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/categories/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/media/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/overview/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/pages/[id]/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/pages/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/posts/[id]/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/posts/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/settings/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/tags/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/users/[id]/password/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/users/[id]/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/admin/users/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/auth/login/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/auth/logout/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/auth/me/route.ts"
+    },
+    {
+      "status": "M",
+      "file": "app/api/categories/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/keystatic/[...params]/route.ts"
+    },
+    {
+      "status": "D",
+      "file": "app/api/pages/[slug]/route.ts"
+    },
+    {
+      "status": "M",
+      "file": "app/api/posts/[slug]/route.ts"
+    },
+    {
+      "status": "M",
+      "file": "app/api/posts/route.ts"
+    },
+    {
+      "status": "M",
+      "file": "app/blog/page.tsx"
+    },
+    {
+      "status": "M",
+      "file": "app/energy/page.tsx"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/google-fonts-source.css"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/inter-400.woff2"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/inter-500.woff2"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/inter-600.woff2"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/inter-700.woff2"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/inter-OFL.txt"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/playfair-display-400.woff2"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/playfair-display-600.woff2"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/playfair-display-700.woff2"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/playfair-display-OFL.txt"
+    },
+    {
+      "status": "A",
+      "file": "app/fonts/sources.json"
+    },
+    {
+      "status": "M",
+      "file": "app/grow/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/keystatic/[[...params]]/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/keystatic/keystatic.tsx"
+    },
+    {
+      "status": "D",
+      "file": "app/keystatic/layout.tsx"
+    },
+    {
+      "status": "M",
+      "file": "app/latest/page.tsx"
+    },
+    {
+      "status": "M",
+      "file": "app/layout.tsx"
+    },
+    {
+      "status": "M",
+      "file": "app/life/page.tsx"
+    },
+    {
+      "status": "M",
+      "file": "app/preview/[category]/[slug]/page.tsx"
+    },
+    {
+      "status": "M",
+      "file": "app/robots.ts"
+    },
+    {
+      "status": "M",
+      "file": "app/space/page.tsx"
+    },
+    {
+      "status": "D",
+      "file": "components/admin/AdminShell.tsx"
+    },
+    {
+      "status": "D",
+      "file": "components/admin/PageEditor.tsx"
+    },
+    {
+      "status": "D",
+      "file": "components/admin/PasswordLoginForm.tsx"
+    },
+    {
+      "status": "D",
+      "file": "components/admin/PostEditor.tsx"
+    },
+    {
+      "status": "D",
+      "file": "components/admin/ResourceTable.tsx"
+    },
+    {
+      "status": "D",
+      "file": "components/admin/UsersTable.tsx"
+    },
+    {
+      "status": "M",
+      "file": "components/blog/CategoryFilter.tsx"
+    },
+    {
+      "status": "M",
+      "file": "components/blog/LatestFilter.tsx"
+    },
+    {
+      "status": "M",
+      "file": "components/layout/Header.tsx"
+    },
+    {
+      "status": "A",
+      "file": "content/energy/dehumidifier-running-cost-calculation.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/energy/letterbox-draught-proofing-checks.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/energy/plug-in-energy-monitor-rented-flat.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/energy/smart-meter-display-bill-difference.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/energy/washing-machine-repair-replace-calculation.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/grow/autumn-pollinator-container-plan-uk.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/grow/balcony-wind-protection-plants-uk.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/grow/balcony-wormery-winter-uk.mdx"
+    },
+    {
+      "status": "D",
+      "file": "content/grow/fkkj.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/grow/overwinter-strawberries-in-pots-uk.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/grow/peat-free-compost-watering-diagnosis.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/life/household-phone-boundaries-emergency-contact.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/life/library-of-things-borrow-versus-buy.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/life/photo-declutter-backup-checklist.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/life/repair-cafe-first-visit-checklist-uk.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/life/unsubscribe-marketing-keep-important-emails.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/removed-posts.json"
+    },
+    {
+      "status": "A",
+      "file": "content/space/dry-laundry-small-flat-winter.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/space/freezer-inventory-power-cut-plan.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/space/fridge-eat-first-box-food-safety.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/space/under-sink-leak-checklist.mdx"
+    },
+    {
+      "status": "A",
+      "file": "content/space/winter-condensation-observation-checklist.mdx"
+    },
+    {
+      "status": "A",
+      "file": "docs/BLOG_MANAGEMENT.md"
+    },
+    {
+      "status": "A",
+      "file": "lib/blog-content.js"
+    },
+    {
+      "status": "D",
+      "file": "lib/cms/auth.ts"
+    },
+    {
+      "status": "D",
+      "file": "lib/cms/db.ts"
+    },
+    {
+      "status": "D",
+      "file": "lib/cms/http.ts"
+    },
+    {
+      "status": "D",
+      "file": "lib/cms/login-rate-limit.ts"
+    },
+    {
+      "status": "D",
+      "file": "lib/cms/passwords.ts"
+    },
+    {
+      "status": "D",
+      "file": "lib/cms/posts.ts"
+    },
+    {
+      "status": "M",
+      "file": "lib/posts.ts"
+    },
+    {
+      "status": "A",
+      "file": "lib/public-posts.ts"
+    },
+    {
+      "status": "M",
+      "file": "lib/seo.ts"
+    },
+    {
+      "status": "M",
+      "file": "next.config.mjs"
+    },
+    {
+      "status": "M",
+      "file": "package-lock.json"
+    },
+    {
+      "status": "M",
+      "file": "package.json"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/autumn-pollinator-container-plan-uk.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/autumn-pollinator-container-plan-uk.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/balcony-wind-protection-plants-uk.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/balcony-wind-protection-plants-uk.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/balcony-wormery-winter-uk.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/balcony-wormery-winter-uk.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/dehumidifier-running-cost-calculation.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/dehumidifier-running-cost-calculation.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/dry-laundry-small-flat-winter.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/dry-laundry-small-flat-winter.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/freezer-inventory-power-cut-plan.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/freezer-inventory-power-cut-plan.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/fridge-eat-first-box-food-safety.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/fridge-eat-first-box-food-safety.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/household-phone-boundaries-emergency-contact.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/household-phone-boundaries-emergency-contact.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/letterbox-draught-proofing-checks.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/letterbox-draught-proofing-checks.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/library-of-things-borrow-versus-buy.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/library-of-things-borrow-versus-buy.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/overwinter-strawberries-in-pots-uk.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/overwinter-strawberries-in-pots-uk.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/peat-free-compost-watering-diagnosis.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/peat-free-compost-watering-diagnosis.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/photo-declutter-backup-checklist.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/photo-declutter-backup-checklist.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/plug-in-energy-monitor-rented-flat.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/plug-in-energy-monitor-rented-flat.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/repair-cafe-first-visit-checklist-uk.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/repair-cafe-first-visit-checklist-uk.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/smart-meter-display-bill-difference.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/smart-meter-display-bill-difference.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/under-sink-leak-checklist.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/under-sink-leak-checklist.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/unsubscribe-marketing-keep-important-emails.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/unsubscribe-marketing-keep-important-emails.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/washing-machine-repair-replace-calculation.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/washing-machine-repair-replace-calculation.webp"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/winter-condensation-observation-checklist.svg"
+    },
+    {
+      "status": "A",
+      "file": "public/images/posts/winter-condensation-observation-checklist.webp"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/README.md"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/backup.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/content-validation.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/editorial-release-review.md"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/editorial-status-changes.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/file-only-runtime.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/final-http.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/git-access.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/loader-tests.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/pre-removal-http.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/preflight.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/recovery-validation.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/retired-files.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/INITIAL-PROGRESS.md"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/README.md"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/article-list.md"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/database-connection.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/external-links.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/files-changed.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/final-manifest.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/http-validation.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/image-contact-sheet.png"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/import-tests.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/inventory.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/live-readonly-check.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/new-image-provenance.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/opportunities.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/original-hashes.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/repair-image-review.png"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/research-evidence.md"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/retained-draft-hashes.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/test-record.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/tool-checks.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/uk-editorial/validation.json"
+    },
+    {
+      "status": "A",
+      "file": "scripts/audit-editorial-content.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/audit-file-only-runtime.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/audit-live-mdx-migration.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/check-editorial-external-links.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/check-github-preview.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/check-live-editorial.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/check-migration-http.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/compare-migration-html.js"
+    },
+    {
+      "status": "D",
+      "file": "scripts/create-admin.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/editorial-batch.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/editorial-opportunities.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/finalise-editorial-manifest.js"
+    },
+    {
+      "status": "D",
+      "file": "scripts/import-mdx-to-postgres.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/lint.js"
+    },
+    {
+      "status": "D",
+      "file": "scripts/migrate-db.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/prepare-editorial-assets.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/prepare-remaining-editorial-assets.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/preview-editorial-images.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/refine-editorial-links.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/retire-cms-runtime.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/snapshot-mdx-migration.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/test-blog-content.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/validate-blog.js"
+    },
+    {
+      "status": "A",
+      "file": "scripts/vendor-editorial-fonts.js"
+    },
+    {
+      "status": "M",
+      "file": "tsconfig.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/files-changed.json"
+    },
+    {
+      "status": "A",
+      "file": "reports/mdx-migration/deployment.json"
+    }
+  ],
+  "privateBackupsExcluded": true,
+  "secretEnvFilesExcluded": true
+}

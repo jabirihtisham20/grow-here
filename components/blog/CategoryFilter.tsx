@@ -7,11 +7,12 @@ import { ArticleCard } from './ArticleCard';
 interface CategoryFilterProps {
   posts: Post[];
   subtopics: string[];
+  initialVisibleCount?: number;
 }
 
-export function CategoryFilter({ posts, subtopics }: CategoryFilterProps) {
+export function CategoryFilter({ posts, subtopics, initialVisibleCount = 6 }: CategoryFilterProps) {
   const [selectedSubtopic, setSelectedSubtopic] = useState<string>('All');
-  const [visibleCount, setVisibleCount] = useState<number>(6);
+  const [visibleCount, setVisibleCount] = useState<number>(initialVisibleCount);
 
   const filteredPosts =
     selectedSubtopic === 'All'
@@ -79,12 +80,13 @@ export function CategoryFilter({ posts, subtopics }: CategoryFilterProps) {
       {/* Load More Button */}
       {hasMore && (
         <div className="text-center pt-8">
-          <button
-            onClick={() => setVisibleCount((prev) => prev + 6)}
-            className="px-8 py-3 rounded-full border border-forest-600 bg-forest-800/80 text-cream-200 text-xs uppercase tracking-widest font-semibold hover:border-warm-accent hover:text-warm-accent hover:bg-forest-800 transition-all duration-200"
+          <a
+            href={`?page=${Math.ceil(visibleCount / 6) + 1}#articles-list`}
+            onClick={(event) => { event.preventDefault(); setVisibleCount((prev) => prev + 6); }}
+            className="inline-block px-8 py-3 rounded-full border border-forest-600 bg-forest-800/80 text-cream-200 text-xs uppercase tracking-widest font-semibold hover:border-warm-accent hover:text-warm-accent hover:bg-forest-800 transition-all duration-200"
           >
             Load More Stories
-          </button>
+          </a>
         </div>
       )}
     </div>

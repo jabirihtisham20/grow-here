@@ -1,0 +1,6 @@
+data/migration-backups/
+data/editorial-backups/
+data/submissions/
+.env
+.env.local
+.env.production

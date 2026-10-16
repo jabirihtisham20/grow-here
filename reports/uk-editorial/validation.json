@@ -1,0 +1,678 @@
+{
+  "checkedAt": "2026-10-16T12:46:25.693Z",
+  "draftCount": 20,
+  "originalFilesUnchanged": 22,
+  "uniqueSlugs": true,
+  "uniqueKeywords": true,
+  "actualSitemapFunction": "passed: all 20 drafts excluded; existing published paths retained",
+  "publishedCount": 22,
+  "retainedDrafts": "Both retained; only the peat-free source paragraph corrected after a direct 404. Normalised hashes verified.",
+  "browserVisualChecks": "Unavailable: Browser runtime discovery returned no browsers",
+  "productionChecks": "Not performed",
+  "results": [
+    {
+      "file": "content/grow/peat-free-compost-watering-diagnosis.mdx",
+      "slug": "peat-free-compost-watering-diagnosis",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 903,
+      "internalLinks": [
+        "/blog/balcony-herb-garden",
+        "/blog/mini-garden-ideas-small-spaces"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.rhs.org.uk/container-gardening/how-to-water-containers",
+        "https://www.rhs.org.uk/soil-composts-mulches/peat-free",
+        "https://www.rhs.org.uk/container-gardening/how-to-water-containers"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8290
+      },
+      "canonical": "https://growhere.online/blog/peat-free-compost-watering-diagnosis",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 57,
+      "metaDescriptionLength": 157,
+      "preview": "/preview/grow/peat-free-compost-watering-diagnosis"
+    },
+    {
+      "file": "content/grow/balcony-wind-protection-plants-uk.mdx",
+      "slug": "balcony-wind-protection-plants-uk",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 834,
+      "internalLinks": [
+        "/blog/peat-free-compost-watering-diagnosis",
+        "/blog/balcony-herb-garden",
+        "/blog/mini-garden-ideas-small-spaces"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.rhs.org.uk/plants/types/hedges/windbreaks-shelterbelts",
+        "https://www.rhs.org.uk/garden-inspiration/garden-types/balconies-roof-gardens"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8090
+      },
+      "canonical": "https://growhere.online/blog/balcony-wind-protection-plants-uk",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 49,
+      "metaDescriptionLength": 133,
+      "preview": "/preview/grow/balcony-wind-protection-plants-uk"
+    },
+    {
+      "file": "content/grow/autumn-pollinator-container-plan-uk.mdx",
+      "slug": "autumn-pollinator-container-plan-uk",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 816,
+      "internalLinks": [
+        "/blog/mini-garden-ideas-small-spaces",
+        "/blog/balcony-wind-protection-plants-uk",
+        "/blog/balcony-herb-garden"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.rhs.org.uk/garden-inspiration/wildlife/top-12-plants-for-autumn-pollinators",
+        "https://www.rhs.org.uk/wildlife/pots-and-container-habitats"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 9564
+      },
+      "canonical": "https://growhere.online/blog/autumn-pollinator-container-plan-uk",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 52,
+      "metaDescriptionLength": 139,
+      "preview": "/preview/grow/autumn-pollinator-container-plan-uk"
+    },
+    {
+      "file": "content/grow/balcony-wormery-winter-uk.mdx",
+      "slug": "balcony-wormery-winter-uk",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 801,
+      "internalLinks": [
+        "/blog/mini-garden-ideas-small-spaces",
+        "/blog/peat-free-compost-watering-diagnosis",
+        "/blog/balcony-herb-garden"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.rhs.org.uk/soil-composts-mulches/worm-composting",
+        "https://www.gardenorganic.org.uk/news/winter-composting-tips"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 7126
+      },
+      "canonical": "https://growhere.online/blog/balcony-wormery-winter-uk",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 54,
+      "metaDescriptionLength": 140,
+      "preview": "/preview/grow/balcony-wormery-winter-uk"
+    },
+    {
+      "file": "content/grow/overwinter-strawberries-in-pots-uk.mdx",
+      "slug": "overwinter-strawberries-in-pots-uk",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 808,
+      "internalLinks": [
+        "/blog/balcony-herb-garden",
+        "/blog/balcony-wind-protection-plants-uk",
+        "/blog/peat-free-compost-watering-diagnosis",
+        "/blog/mini-garden-ideas-small-spaces"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+        "https://www.rhs.org.uk/prevention-protection/preventing-winter-damage"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 7942
+      },
+      "canonical": "https://growhere.online/blog/overwinter-strawberries-in-pots-uk",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 46,
+      "metaDescriptionLength": 142,
+      "preview": "/preview/grow/overwinter-strawberries-in-pots-uk"
+    },
+    {
+      "file": "content/space/winter-condensation-observation-checklist.mdx",
+      "slug": "winter-condensation-observation-checklist",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 881,
+      "internalLinks": [
+        "/blog/how-to-save-energy-at-home",
+        "/blog/small-apartment-organization-ideas"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://energysavingtrust.org.uk/advice/ventilation/",
+        "https://energysavingtrust.org.uk/advice/fixing-damp-and-condensation/"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 6548
+      },
+      "canonical": "https://growhere.online/blog/winter-condensation-observation-checklist",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 48,
+      "metaDescriptionLength": 146,
+      "preview": "/preview/space/winter-condensation-observation-checklist"
+    },
+    {
+      "file": "content/space/dry-laundry-small-flat-winter.mdx",
+      "slug": "dry-laundry-small-flat-winter",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 831,
+      "internalLinks": [
+        "/blog/small-apartment-organization-ideas",
+        "/blog/dehumidifier-running-cost-calculation",
+        "/blog/winter-condensation-observation-checklist",
+        "/blog/how-to-save-energy-at-home"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://energysavingtrust.org.uk/advice/ventilation/",
+        "https://energysavingtrust.org.uk/advice/fixing-damp-and-condensation/"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 9542
+      },
+      "canonical": "https://growhere.online/blog/dry-laundry-small-flat-winter",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 51,
+      "metaDescriptionLength": 149,
+      "preview": "/preview/space/dry-laundry-small-flat-winter"
+    },
+    {
+      "file": "content/space/fridge-eat-first-box-food-safety.mdx",
+      "slug": "fridge-eat-first-box-food-safety",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 797,
+      "internalLinks": [
+        "/blog/small-kitchen-organization-ideas",
+        "/blog/freezer-inventory-power-cut-plan",
+        "/blog/small-apartment-organization-ideas"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.gov.uk/government/publications/how-to-chill-freeze-and-defrost-food-safely/how-to-chill-freeze-and-defrost-food-safely",
+        "https://www.foodstandards.gov.scot/consumer-advice/food-safety/food-safety-in-the-kitchen/chilling"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8998
+      },
+      "canonical": "https://growhere.online/blog/fridge-eat-first-box-food-safety",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 52,
+      "metaDescriptionLength": 152,
+      "preview": "/preview/space/fridge-eat-first-box-food-safety"
+    },
+    {
+      "file": "content/space/freezer-inventory-power-cut-plan.mdx",
+      "slug": "freezer-inventory-power-cut-plan",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 794,
+      "internalLinks": [
+        "/blog/small-kitchen-organization-ideas",
+        "/blog/small-apartment-organization-ideas",
+        "/blog/fridge-eat-first-box-food-safety"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.gov.uk/government/publications/food-safety-in-a-power-cut-advice-for-consumers/food-safety-in-a-power-cut-advice-for-consumers",
+        "https://www.foodstandards.gov.scot/",
+        "https://www.gov.uk/government/publications/how-to-chill-freeze-and-defrost-food-safely/how-to-chill-freeze-and-defrost-food-safely"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8218
+      },
+      "canonical": "https://growhere.online/blog/freezer-inventory-power-cut-plan",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 49,
+      "metaDescriptionLength": 140,
+      "preview": "/preview/space/freezer-inventory-power-cut-plan"
+    },
+    {
+      "file": "content/space/under-sink-leak-checklist.mdx",
+      "slug": "under-sink-leak-checklist",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 820,
+      "internalLinks": [
+        "/blog/small-kitchen-organization-ideas",
+        "/blog/winter-condensation-observation-checklist",
+        "/blog/small-apartment-organization-ideas"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.watersafe.org.uk/advice/common_plumbing_questions1/leaks/what_should_i_do_if_i_find_a_leak_in_or_around_my_home_or_business/",
+        "https://www.watersafe.org.uk/advice/general_plumbing_advice/"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8606
+      },
+      "canonical": "https://growhere.online/blog/under-sink-leak-checklist",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 52,
+      "metaDescriptionLength": 146,
+      "preview": "/preview/space/under-sink-leak-checklist"
+    },
+    {
+      "file": "content/energy/plug-in-energy-monitor-rented-flat.mdx",
+      "slug": "plug-in-energy-monitor-rented-flat",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 747,
+      "internalLinks": [
+        "/blog/how-to-save-energy-at-home",
+        "/blog/dehumidifier-running-cost-calculation",
+        "/blog/energy-efficient-appliances-guide"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.ect.cse.org.uk/u/advice/energy-monitoring",
+        "https://www.electricalsafetyfirst.org.uk/"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 9152
+      },
+      "canonical": "https://growhere.online/blog/plug-in-energy-monitor-rented-flat",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 49,
+      "metaDescriptionLength": 153,
+      "preview": "/preview/energy/plug-in-energy-monitor-rented-flat"
+    },
+    {
+      "file": "content/energy/letterbox-draught-proofing-checks.mdx",
+      "slug": "letterbox-draught-proofing-checks",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 777,
+      "internalLinks": [
+        "/blog/how-to-save-energy-at-home",
+        "/blog/winter-condensation-observation-checklist",
+        "/blog/small-apartment-organization-ideas"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.cse.org.uk/advice/diy-draught-proofing/",
+        "https://energysavingtrust.org.uk/how-to-draught-proof-your-windows-and-doors/"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8626
+      },
+      "canonical": "https://growhere.online/blog/letterbox-draught-proofing-checks",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 52,
+      "metaDescriptionLength": 143,
+      "preview": "/preview/energy/letterbox-draught-proofing-checks"
+    },
+    {
+      "file": "content/energy/washing-machine-repair-replace-calculation.mdx",
+      "slug": "washing-machine-repair-replace-calculation",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 772,
+      "internalLinks": [
+        "/blog/energy-efficient-appliances-guide",
+        "/blog/plug-in-energy-monitor-rented-flat",
+        "/blog/underconsumption-buy-less"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.electricalsafetyfirst.org.uk/safety-advice/products-and-appliances/kitchen-appliances/washing-machines/",
+        "https://create-energy-label.service.gov.uk/api-documentation/endpoint/Washing%20machines%20and%20washer-dryers",
+        "https://energysavingtrust.org.uk/how-save-energy-when-using-your-washing-machine"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 9026
+      },
+      "canonical": "https://growhere.online/blog/washing-machine-repair-replace-calculation",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 57,
+      "metaDescriptionLength": 132,
+      "preview": "/preview/energy/washing-machine-repair-replace-calculation"
+    },
+    {
+      "file": "content/energy/dehumidifier-running-cost-calculation.mdx",
+      "slug": "dehumidifier-running-cost-calculation",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 795,
+      "internalLinks": [
+        "/blog/plug-in-energy-monitor-rented-flat",
+        "/blog/dry-laundry-small-flat-winter",
+        "/blog/how-to-save-energy-at-home",
+        "/blog/energy-efficient-appliances-guide"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.ect.cse.org.uk/u/advice/energy-monitoring",
+        "https://energysavingtrust.org.uk/advice/fixing-damp-and-condensation/"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 9924
+      },
+      "canonical": "https://growhere.online/blog/dehumidifier-running-cost-calculation",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 55,
+      "metaDescriptionLength": 143,
+      "preview": "/preview/energy/dehumidifier-running-cost-calculation"
+    },
+    {
+      "file": "content/energy/smart-meter-display-bill-difference.mdx",
+      "slug": "smart-meter-display-bill-difference",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 774,
+      "internalLinks": [
+        "/blog/how-to-save-energy-at-home",
+        "/blog/plug-in-energy-monitor-rented-flat",
+        "/blog/smart-thermostat-guide"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://energysavingtrust.org.uk/advice/guide-to-smart-meters/",
+        "https://www.ofgem.gov.uk/getting-smart-meter"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8466
+      },
+      "canonical": "https://growhere.online/blog/smart-meter-display-bill-difference",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 50,
+      "metaDescriptionLength": 147,
+      "preview": "/preview/energy/smart-meter-display-bill-difference"
+    },
+    {
+      "file": "content/life/household-phone-boundaries-emergency-contact.mdx",
+      "slug": "household-phone-boundaries-emergency-contact",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 795,
+      "internalLinks": [
+        "/blog/digital-minimalism-guide",
+        "/blog/slow-living-for-busy-people"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://support.apple.com/en-gb/guide/iphone/iphd6288a67f/ios",
+        "https://support.google.com/android/answer/9069335?hl=en"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8344
+      },
+      "canonical": "https://growhere.online/blog/household-phone-boundaries-emergency-contact",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 55,
+      "metaDescriptionLength": 154,
+      "preview": "/preview/life/household-phone-boundaries-emergency-contact"
+    },
+    {
+      "file": "content/life/unsubscribe-marketing-keep-important-emails.mdx",
+      "slug": "unsubscribe-marketing-keep-important-emails",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 772,
+      "internalLinks": [
+        "/blog/digital-minimalism-guide",
+        "/blog/household-phone-boundaries-emergency-contact",
+        "/blog/7-day-digital-detox"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://ico.org.uk/for-the-public/online/spam-emails/",
+        "https://www.ncsc.gov.uk/collection/phishing-scams/report-scam-email"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 9496
+      },
+      "canonical": "https://growhere.online/blog/unsubscribe-marketing-keep-important-emails",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 54,
+      "metaDescriptionLength": 147,
+      "preview": "/preview/life/unsubscribe-marketing-keep-important-emails"
+    },
+    {
+      "file": "content/life/repair-cafe-first-visit-checklist-uk.mdx",
+      "slug": "repair-cafe-first-visit-checklist-uk",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 817,
+      "internalLinks": [
+        "/blog/photo-declutter-backup-checklist",
+        "/blog/washing-machine-repair-replace-calculation",
+        "/blog/underconsumption-buy-less",
+        "/blog/slow-living-for-busy-people"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.repaircafe.org/en/visit/",
+        "https://www.repaircafe.org/en/faq/"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8022
+      },
+      "canonical": "https://growhere.online/blog/repair-cafe-first-visit-checklist-uk",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 61,
+      "metaDescriptionLength": 150,
+      "preview": "/preview/life/repair-cafe-first-visit-checklist-uk"
+    },
+    {
+      "file": "content/life/library-of-things-borrow-versus-buy.mdx",
+      "slug": "library-of-things-borrow-versus-buy",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 770,
+      "internalLinks": [
+        "/blog/underconsumption-buy-less",
+        "/blog/vertical-storage-ideas-small-homes",
+        "/blog/repair-cafe-first-visit-checklist-uk"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://www.libraryofthings.co.uk/",
+        "https://libraryofthings.co.uk/terms-of-borrowing"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8586
+      },
+      "canonical": "https://growhere.online/blog/library-of-things-borrow-versus-buy",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 54,
+      "metaDescriptionLength": 154,
+      "preview": "/preview/life/library-of-things-borrow-versus-buy"
+    },
+    {
+      "file": "content/life/photo-declutter-backup-checklist.mdx",
+      "slug": "photo-declutter-backup-checklist",
+      "status": "draft",
+      "mdxCompilation": "passed",
+      "faqCount": 5,
+      "bodyH1Count": 0,
+      "templateH1Count": 1,
+      "words": 831,
+      "internalLinks": [
+        "/blog/digital-minimalism-guide",
+        "/blog/unsubscribe-marketing-keep-important-emails",
+        "/blog/underconsumption-buy-less"
+      ],
+      "existingPostLinks": 2,
+      "externalLinks": [
+        "https://support.apple.com/en-gb/108922",
+        "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data"
+      ],
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 8660
+      },
+      "canonical": "https://growhere.online/blog/photo-declutter-backup-checklist",
+      "publicationFixtureMetadata": "Actual title/description/canonical/OpenGraph/Twitter function passed with draft-inclusive reader; no publication",
+      "proposedBlogPostingSchema": "passed; emitted only on publication",
+      "sitemapExcluded": true,
+      "seoTitleLength": 59,
+      "metaDescriptionLength": 149,
+      "preview": "/preview/life/photo-declutter-backup-checklist"
+    }
+  ]
+}

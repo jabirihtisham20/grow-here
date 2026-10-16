@@ -1,0 +1,13 @@
+{
+  "tests": [
+    "Legacy fields preserved",
+    "Date/image aliases accepted",
+    "Missing required metadata rejected",
+    "Silent URL drift rejected",
+    "Impossible dates rejected",
+    "Missing related target rejected",
+    "Duplicate draft/published slugs rejected across collections",
+    "Deterministic safe slug helper"
+  ],
+  "passed": 8
+}

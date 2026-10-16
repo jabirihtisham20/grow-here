@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-16T12:46:51.353Z",
+  "batchCount": 20,
+  "categoryCounts": {
+    "grow": 5,
+    "space": 5,
+    "energy": 5,
+    "life": 5
+  },
+  "commands": {
+    "npm.cmd run build": {
+      "exitCode": 0,
+      "result": "Compiled, type/lint stage completed, 81 static pages generated, build tracing completed; no network font request"
+    },
+    "npx.cmd tsc --noEmit": {
+      "exitCode": 0
+    },
+    "node scripts/validate-editorial-drafts.js": {
+      "exitCode": 0
+    },
+    "node scripts/test-editorial-import.js": {
+      "exitCode": 0,
+      "liveDatabase": false
+    },
+    "node scripts/import-editorial-drafts.js": {
+      "exitCode": 0,
+      "mode": "dry run; no database connection"
+    },
+    "node scripts/check-editorial-http.js": {
+      "exitCode": 0,
+      "origin": "http://127.0.0.1:3007"
+    },
+    "node scripts/check-editorial-external-links.js --retry-failed": {
+      "exitCode": 0,
+      "direct2xx": 32,
+      "total": 37,
+      "remaining": "5 direct 403 responses; sources readable with web tool"
+    },
+    "node scripts/diagnose-cms-connection.js": {
+      "result": "PostgreSQL 28P01 authentication rejection; no changes"
+    },
+    "node scripts/editorial-db-backup.js": {
+      "exitCode": 1,
+      "result": "ENOENT: PostgreSQL client tools unavailable; no database backup created"
+    }
+  },
+  "originalContentFilesPreserved": 22,
+  "priorDrafts": "Retained; one source-paragraph correction only",
+  "images": "20 decoded; contact sheet and repaired toaster schematic visually reviewed",
+  "browser": "Runtime discovery returned no browsers; viewport/interaction QA not executed",
+  "livePublication": false,
+  "liveDatabaseImport": false,
+  "testDeleted": false
+}

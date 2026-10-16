@@ -22,7 +22,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function LatestStoriesPage() {
+export default async function LatestStoriesPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
+  const requestedPage = Math.max(1, Math.floor(Number((await searchParams).page) || 1));
   const posts = getAllPosts();
 
   const breadcrumbs = [
@@ -54,7 +55,7 @@ export default function LatestStoriesPage() {
         </div>
 
         {/* Filter and Articles */}
-        <LatestFilter posts={posts} />
+        <LatestFilter initialVisibleCount={Math.min(posts.length, 12 + (requestedPage - 1) * 6)} posts={posts} />
       </Container>
 
       <div className="mt-24">

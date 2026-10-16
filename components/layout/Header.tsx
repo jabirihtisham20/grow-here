@@ -44,10 +44,6 @@ export function Header({ searchIndex }: HeaderProps = {}) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  if (pathname?.startsWith('/keystatic')) {
-    return null;
-  }
-
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'Plants & Gardening', href: '/grow' },

@@ -15,7 +15,7 @@ import { RelatedPosts } from '@/components/blog/RelatedPosts';
 import { ShareButtons } from '@/components/blog/ShareButtons';
 import { RenderMDX } from '@/lib/mdx';
 import { formatDate } from '@/lib/utils';
-import { Clock, Calendar, ChevronRight, Eye, Edit3, ArrowLeft } from 'lucide-react';
+import { Clock, Calendar, ChevronRight, Eye, ArrowLeft } from 'lucide-react';
 
 interface PreviewPageProps {
   params: Promise<{
@@ -87,18 +87,11 @@ export default async function PreviewArticlePage({ params }: PreviewPageProps) {
           </div>
           <div className="flex items-center gap-3">
             <Link
-              href={`/keystatic/collection/${post.category}/item/${post.slug}`}
-              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-forest-950 text-cream-100 hover:bg-forest-900 transition-colors font-medium text-xs shadow"
-            >
-              <Edit3 className="w-3.5 h-3.5 text-botanical-accent" />
-              Edit in Admin
-            </Link>
-            <Link
-              href="/keystatic"
+              href="/blog"
               className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white/20 hover:bg-white/30 text-forest-950 transition-colors font-semibold text-xs"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
-              Admin Home
+              All Articles
             </Link>
           </div>
         </div>

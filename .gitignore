@@ -37,8 +37,11 @@ next-env.d.ts
 
 # local submission backups
 data/submissions/
+data/editorial-backups/
 # vercel
 /.vercel/
 
 # production environment
 .env.production
+
+data/migration-backups/

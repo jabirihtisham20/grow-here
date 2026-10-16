@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-16T17:05:47.232Z",
+  "backup": "data/migration-backups/2026-10-16T13-04-56-672Z",
+  "removed": [
+    {
+      "target": "app/admin",
+      "rollbackFiles": 17
+    },
+    {
+      "target": "app/api/admin",
+      "rollbackFiles": 15
+    },
+    {
+      "target": "app/api/auth",
+      "rollbackFiles": 3
+    },
+    {
+      "target": "app/keystatic",
+      "rollbackFiles": 3
+    },
+    {
+      "target": "app/api/keystatic",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "app/api/pages",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "components/admin",
+      "rollbackFiles": 7
+    },
+    {
+      "target": "lib/cms",
+      "rollbackFiles": 7
+    },
+    {
+      "target": "keystatic.config.ts",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "scripts/create-admin.js",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "scripts/migrate-db.js",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "scripts/import-mdx-to-postgres.js",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "scripts/diagnose-cms-connection.js",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "scripts/editorial-db-backup.js",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "scripts/import-editorial-drafts.js",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "scripts/test-editorial-import.js",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "scripts/validate-editorial-drafts.js",
+      "rollbackFiles": 1
+    },
+    {
+      "target": "scripts/check-editorial-http.js",
+      "rollbackFiles": 1
+    }
+  ],
+  "neonModified": false
+}

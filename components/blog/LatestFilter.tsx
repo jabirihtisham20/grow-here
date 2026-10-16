@@ -6,11 +6,12 @@ import { ArticleCard } from './ArticleCard';
 
 interface LatestFilterProps {
   posts: Post[];
+  initialVisibleCount?: number;
 }
 
-export function LatestFilter({ posts }: LatestFilterProps) {
+export function LatestFilter({ posts, initialVisibleCount = 12 }: LatestFilterProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [visibleCount, setVisibleCount] = useState<number>(12);
+  const [visibleCount, setVisibleCount] = useState<number>(initialVisibleCount);
 
   const filterTabs = [
     { label: 'All', value: 'all' },
@@ -31,7 +32,7 @@ export function LatestFilter({ posts }: LatestFilterProps) {
   const hasMore = filteredPosts.length > visibleCount;
 
   return (
-    <div className="space-y-10">
+    <div id="stories-grid" className="space-y-10">
       {/* Category Filter Tabs */}
       <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
         {filterTabs.map((tab) => (
@@ -71,12 +72,13 @@ export function LatestFilter({ posts }: LatestFilterProps) {
       {/* Load More Button */}
       {hasMore && (
         <div className="text-center pt-8">
-          <button
-            onClick={() => setVisibleCount((prev) => prev + 6)}
-            className="px-8 py-3.5 rounded-full bg-forest-850 border border-forest-700 text-xs font-semibold uppercase tracking-wider text-warm-accent hover:bg-forest-750 hover:border-warm-accent transition-all shadow-md"
+          <a
+            href={`?page=${Math.floor((visibleCount - 12) / 6) + 2}#stories-grid`}
+            onClick={(event) => { event.preventDefault(); setVisibleCount((prev) => prev + 6); }}
+            className="inline-block px-8 py-3.5 rounded-full bg-forest-850 border border-forest-700 text-xs font-semibold uppercase tracking-wider text-warm-accent hover:bg-forest-750 hover:border-warm-accent transition-all shadow-md"
           >
             Load More Stories
-          </button>
+          </a>
         </div>
       )}
     </div>

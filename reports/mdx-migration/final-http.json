@@ -1,0 +1,470 @@
+{
+  "checkedAt": "2026-10-16T17:20:56.486Z",
+  "origin": "http://127.0.0.1:3007",
+  "published": 41,
+  "drafts": 0,
+  "originalsPreserved": 21,
+  "sitemapExactMatch": true,
+  "categoryDiscovery": true,
+  "pagination": [
+    {
+      "archive": "grow",
+      "pages": 2,
+      "realArticleAnchors": 11
+    },
+    {
+      "archive": "space",
+      "pages": 2,
+      "realArticleAnchors": 10
+    },
+    {
+      "archive": "energy",
+      "pages": 2,
+      "realArticleAnchors": 10
+    },
+    {
+      "archive": "life",
+      "pages": 2,
+      "realArticleAnchors": 10
+    },
+    {
+      "archive": "blog",
+      "pages": 6,
+      "realArticleAnchors": 41
+    },
+    {
+      "archive": "latest",
+      "pages": 6,
+      "realArticleAnchors": 41
+    }
+  ],
+  "removedRoute404": [
+    "/blog/fkkj",
+    "/grow/fkkj",
+    "/blog/this-article-does-not-exist",
+    "/admin",
+    "/admin/login",
+    "/admin/posts",
+    "/admin/media",
+    "/api/admin/posts",
+    "/api/admin/media",
+    "/api/auth/me",
+    "/keystatic",
+    "/api/keystatic/example",
+    "/api/pages/not-present"
+  ],
+  "retiredCMS": true,
+  "results": [
+    {
+      "slug": "autumn-pollinator-container-plan-uk",
+      "canonical": "https://growhere.online/blog/autumn-pollinator-container-plan-uk",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "balcony-wind-protection-plants-uk",
+      "canonical": "https://growhere.online/blog/balcony-wind-protection-plants-uk",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "balcony-wormery-winter-uk",
+      "canonical": "https://growhere.online/blog/balcony-wormery-winter-uk",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "overwinter-strawberries-in-pots-uk",
+      "canonical": "https://growhere.online/blog/overwinter-strawberries-in-pots-uk",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "peat-free-compost-watering-diagnosis",
+      "canonical": "https://growhere.online/blog/peat-free-compost-watering-diagnosis",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "dry-laundry-small-flat-winter",
+      "canonical": "https://growhere.online/blog/dry-laundry-small-flat-winter",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "freezer-inventory-power-cut-plan",
+      "canonical": "https://growhere.online/blog/freezer-inventory-power-cut-plan",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "fridge-eat-first-box-food-safety",
+      "canonical": "https://growhere.online/blog/fridge-eat-first-box-food-safety",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "under-sink-leak-checklist",
+      "canonical": "https://growhere.online/blog/under-sink-leak-checklist",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "winter-condensation-observation-checklist",
+      "canonical": "https://growhere.online/blog/winter-condensation-observation-checklist",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "dehumidifier-running-cost-calculation",
+      "canonical": "https://growhere.online/blog/dehumidifier-running-cost-calculation",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "letterbox-draught-proofing-checks",
+      "canonical": "https://growhere.online/blog/letterbox-draught-proofing-checks",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "plug-in-energy-monitor-rented-flat",
+      "canonical": "https://growhere.online/blog/plug-in-energy-monitor-rented-flat",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "smart-meter-display-bill-difference",
+      "canonical": "https://growhere.online/blog/smart-meter-display-bill-difference",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "washing-machine-repair-replace-calculation",
+      "canonical": "https://growhere.online/blog/washing-machine-repair-replace-calculation",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "household-phone-boundaries-emergency-contact",
+      "canonical": "https://growhere.online/blog/household-phone-boundaries-emergency-contact",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "library-of-things-borrow-versus-buy",
+      "canonical": "https://growhere.online/blog/library-of-things-borrow-versus-buy",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "photo-declutter-backup-checklist",
+      "canonical": "https://growhere.online/blog/photo-declutter-backup-checklist",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "repair-cafe-first-visit-checklist-uk",
+      "canonical": "https://growhere.online/blog/repair-cafe-first-visit-checklist-uk",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "unsubscribe-marketing-keep-important-emails",
+      "canonical": "https://growhere.online/blog/unsubscribe-marketing-keep-important-emails",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": false,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "balcony-herb-garden",
+      "canonical": "https://growhere.online/blog/balcony-herb-garden",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "best-low-light-indoor-plants-apartments",
+      "canonical": "https://growhere.online/blog/best-low-light-indoor-plants-apartments",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "how-to-create-a-greener-calmer-home",
+      "canonical": "https://growhere.online/blog/how-to-create-a-greener-calmer-home",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "how-to-grow-microgreens-indoors",
+      "canonical": "https://growhere.online/blog/how-to-grow-microgreens-indoors",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "hydroponics-for-beginners",
+      "canonical": "https://growhere.online/blog/hydroponics-for-beginners",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "mini-garden-ideas-small-spaces",
+      "canonical": "https://growhere.online/blog/mini-garden-ideas-small-spaces",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "80-20-decluttering-method",
+      "canonical": "https://growhere.online/blog/80-20-decluttering-method",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "room-by-room-decluttering-checklist",
+      "canonical": "https://growhere.online/blog/room-by-room-decluttering-checklist",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "small-apartment-organization-ideas",
+      "canonical": "https://growhere.online/blog/small-apartment-organization-ideas",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "small-kitchen-organization-ideas",
+      "canonical": "https://growhere.online/blog/small-kitchen-organization-ideas",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "vertical-storage-ideas-small-homes",
+      "canonical": "https://growhere.online/blog/vertical-storage-ideas-small-homes",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "are-solar-panels-worth-it-2026",
+      "canonical": "https://growhere.online/blog/are-solar-panels-worth-it-2026",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "energy-efficient-appliances-guide",
+      "canonical": "https://growhere.online/blog/energy-efficient-appliances-guide",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "home-battery-storage-explained",
+      "canonical": "https://growhere.online/blog/home-battery-storage-explained",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "how-to-save-energy-at-home",
+      "canonical": "https://growhere.online/blog/how-to-save-energy-at-home",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "smart-thermostat-guide",
+      "canonical": "https://growhere.online/blog/smart-thermostat-guide",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "7-day-digital-detox",
+      "canonical": "https://growhere.online/blog/7-day-digital-detox",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "digital-minimalism-guide",
+      "canonical": "https://growhere.online/blog/digital-minimalism-guide",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "mindful-morning-routine",
+      "canonical": "https://growhere.online/blog/mindful-morning-routine",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "slow-living-for-busy-people",
+      "canonical": "https://growhere.online/blog/slow-living-for-busy-people",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    },
+    {
+      "slug": "underconsumption-buy-less",
+      "canonical": "https://growhere.online/blog/underconsumption-buy-less",
+      "publicStatus": 200,
+      "legacyStatus": 200,
+      "bodyPreserved": true,
+      "ssr": true,
+      "metadata": true,
+      "schema": true
+    }
+  ],
+  "browserQA": "Not executed; HTTP HTML validation only"
+}

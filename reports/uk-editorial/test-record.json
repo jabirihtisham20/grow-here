@@ -1,0 +1,38 @@
+{
+  "databaseVerified": false,
+  "deletionPerformed": false,
+  "reason": "Database authentication failed (28P01); no database backup or unique record/relationship verification possible.",
+  "localMatches": [
+    {
+      "file": "content/grow/fkkj.mdx",
+      "slug": "fkkj",
+      "category": "grow",
+      "title": "fkkj",
+      "description": "flqsnlsl",
+      "subcategory": "Indoor Plants",
+      "author": {
+        "name": "Elena Vance",
+        "role": "Botanical Stylist & Horticulturist",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+      },
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "image": "/images/posts/fkkj/image.png",
+      "imageAlt": "lenflkq",
+      "featured": false,
+      "editorsPick": false,
+      "status": "published",
+      "readingTime": "5 min read",
+      "tags": [],
+      "seoTitle": ",jfbwefww",
+      "metaDescription": "kjdfkf",
+      "primaryKeyword": "hbfdfjk",
+      "secondaryKeywords": [],
+      "noindex": false,
+      "headings": [],
+      "internalLinks": [],
+      "sha256": "afb7ac2590010bbc71bdb48c2d152a64e12cd59010bda7ee1bcd628035beeb52",
+      "content": "jnjfjfnkfnknfklanf\r\n"
+    }
+  ],
+  "fileBackup": "data/editorial-backups/71b5e3559d364819.json"
+}

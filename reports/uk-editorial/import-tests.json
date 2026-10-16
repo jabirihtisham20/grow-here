@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-16T12:45:35.697Z",
+  "method": "Actual importer with in-memory SQL adapter; not PostgreSQL integration",
+  "firstRun": "20 DRAFT posts and 20 media records; no publication dates",
+  "rerun": "Exact matches skipped; all state unchanged",
+  "lateSlugCollision": "Transaction rolled back; pre-existing legitimate record preserved",
+  "liveDatabaseTested": false,
+  "backupHelper": "Stubbed here; requires real PostgreSQL client tools and valid credentials for archive verification"
+}

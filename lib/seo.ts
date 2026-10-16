@@ -67,12 +67,9 @@ export function generateArticleSchema(post: Post) {
     datePublished: post.publishedAt,
     dateModified: post.updatedAt || post.publishedAt,
     author: [
-      {
-        '@type': 'Person',
-        name: post.author.name,
-        jobTitle: post.author.role,
-        image: authorAvatar,
-      },
+      /^Grow Here Editorial(?: Team)?$/i.test(post.author.name)
+        ? { '@type': 'Organization', name: post.author.name, image: authorAvatar }
+        : { '@type': 'Person', name: post.author.name, jobTitle: post.author.role, image: authorAvatar },
     ],
     publisher: {
       '@type': 'Organization',

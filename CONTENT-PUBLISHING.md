@@ -1,4 +1,8 @@
-# Publishing blog content
+# Publishing blog content — superseded workflow
+
+The CMS and Keystatic workflow below is retained as historical context only. The current file-only workflow, commands, rollback and Vercel instructions are in [docs/BLOG_MANAGEMENT.md](docs/BLOG_MANAGEMENT.md). Do not configure the retired CMS or run old database import commands for this website.
+
+## Historical setup
 
 Keystatic and the website use the same files in this repository. The four collections write `.mdx` entries to `content/grow/`, `content/space/`, `content/energy/`, and `content/life/`. The title field generates the entry filename/URL slug; the frontend treats that filename as authoritative. Featured and inline MDX image uploads are committed under `public/images/posts/` and referenced with `/images/posts/...` paths.
 

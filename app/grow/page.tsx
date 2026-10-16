@@ -26,7 +26,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function GrowCategoryPage() {
+export default async function GrowCategoryPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
+  const requestedPage = Math.max(1, Math.floor(Number((await searchParams).page) || 1));
   const categoryInfo = CATEGORIES.grow;
   const posts = getPostsByCategory('grow');
   const featured = posts.find((p) => p.featured) || posts[0];
@@ -153,7 +154,7 @@ export default function GrowCategoryPage() {
           <h2 className="font-serif text-2xl sm:text-3xl text-cream-200 font-medium mb-6">
             All Grow Guides &amp; Dispatches
           </h2>
-          <CategoryFilter posts={posts} subtopics={categoryInfo.subtopics} />
+          <CategoryFilter initialVisibleCount={Math.min(posts.length, requestedPage * 6)} posts={posts} subtopics={categoryInfo.subtopics} />
         </div>
 
         {/* Category CTA */}

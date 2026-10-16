@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-16T17:23:10.803Z",
+  "localRelease": {
+    "originals": 21,
+    "newUKArticles": 20,
+    "publicArticles": 41,
+    "testExcluded": true,
+    "adminRemoved": true,
+    "neonRuntimeRequired": false
+  },
+  "checks": {
+    "content": "passed",
+    "originalSourceHashes": "21 unchanged",
+    "originalRenderedBodies": "21 unchanged",
+    "canonicalAndLegacyRoutes": "41 + 41 passed",
+    "sitemap": "41 exact article URLs",
+    "realPagination": "All articles discovered",
+    "eslint": "0 errors, 0 warnings",
+    "typescript": "passed",
+    "productionBuild": "passed; 107 static pages generated",
+    "loaderTests": "8 passed",
+    "functionTraces": "content/media present; no database packages",
+    "browser": "Unavailable; no viewport/interaction pass claimed"
+  },
+  "database": {
+    "writes": 0,
+    "projectDeleted": false,
+    "credentialsModified": false
+  },
+  "deployment": {
+    "branch": "chore/file-based-mdx-migration",
+    "preview": "pending Git push",
+    "production": "not deployed"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-16T17:19:38.832Z",
+  "sourceFilesChecked": 71,
+  "removedDependencies": [
+    "pg",
+    "@types/pg",
+    "bcryptjs",
+    "@keystatic/core",
+    "@keystatic/next",
+    "@vercel/blob"
+  ],
+  "activeCMSReferences": [],
+  "vercelFunctionTraces": [
+    {
+      "route": "api/posts/route",
+      "contentFiles": 42,
+      "publicAssets": 75,
+      "databasePackages": 0
+    },
+    {
+      "route": "blog/[slug]/page",
+      "contentFiles": 42,
+      "publicAssets": 75,
+      "databasePackages": 0
+    },
+    {
+      "route": "grow/page",
+      "contentFiles": 42,
+      "publicAssets": 75,
+      "databasePackages": 0
+    }
+  ],
+  "environmentSecretsModified": false,
+  "neonDataModified": false
+}

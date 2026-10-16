@@ -26,7 +26,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function EnergyCategoryPage() {
+export default async function EnergyCategoryPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
+  const requestedPage = Math.max(1, Math.floor(Number((await searchParams).page) || 1));
   const categoryInfo = CATEGORIES.energy;
   const posts = getPostsByCategory('energy');
   const featured = posts.find((p) => p.featured) || posts[0];
@@ -161,7 +162,7 @@ export default function EnergyCategoryPage() {
           <h2 className="font-serif text-2xl sm:text-3xl text-cream-200 font-medium mb-6">
             All Energy Guides &amp; Insights
           </h2>
-          <CategoryFilter posts={posts} subtopics={categoryInfo.subtopics} />
+          <CategoryFilter initialVisibleCount={Math.min(posts.length, requestedPage * 6)} posts={posts} subtopics={categoryInfo.subtopics} />
         </div>
 
         {/* Category CTA */}

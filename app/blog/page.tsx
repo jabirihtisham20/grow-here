@@ -16,7 +16,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BlogPage() {
+export default async function BlogPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
+  const requestedPage = Math.max(1, Math.floor(Number((await searchParams).page) || 1));
   const posts = getAllPosts();
   return (
     <div className="pt-28 pb-20 bg-forest-950 min-h-screen">
@@ -26,7 +27,7 @@ export default function BlogPage() {
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-cream-100 tracking-tight mb-4">The Grow Here Blog</h1>
           <p className="text-lg sm:text-xl text-botanical-muted max-w-2xl font-sans leading-relaxed">Practical ideas for greener spaces, smarter homes, and lighter living.</p>
         </div>
-        <LatestFilter posts={posts} />
+        <LatestFilter initialVisibleCount={Math.min(posts.length, 12 + (requestedPage - 1) * 6)} posts={posts} />
       </Container>
       <div className="mt-24"><Newsletter /></div>
     </div>
