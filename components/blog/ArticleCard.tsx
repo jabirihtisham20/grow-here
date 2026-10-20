@@ -78,9 +78,9 @@ export function ArticleCard({
 
   // Standard vertical card
   return (
-    <article className="group flex flex-col justify-between rounded-2xl border border-forest-750/70 bg-forest-850/60 overflow-hidden transition-all duration-300 hover:border-forest-600/80 hover:bg-forest-800/80 hover:-translate-y-1 shadow-md hover:shadow-xl">
+      <article className="group flex flex-col justify-between rounded-[1.15rem] border border-forest-750/70 bg-forest-850/60 overflow-hidden transition-all duration-300 hover:border-warm-accent/50 hover:bg-forest-800/80 hover:-translate-y-1 shadow-md hover:shadow-xl">
       <div>
-        <Link href={`/blog/${post.slug}`} className="block relative aspect-[16/10] overflow-hidden bg-forest-800">
+        <Link href={`/blog/${post.slug}`} className="block relative aspect-[16/11] overflow-hidden bg-forest-800">
           {post.image && <Image
             src={post.image}
             alt={post.imageAlt}
@@ -94,20 +94,20 @@ export function ArticleCard({
           </div>
         </Link>
 
-        <div className="p-5 sm:p-6">
-          <div className="flex items-center gap-2 text-xs text-botanical-muted mb-2.5">
+          <div className="p-5 sm:p-6">
+          <div className="flex items-center gap-2 text-[11px] uppercase tracking-[.12em] text-botanical-muted mb-3">
             <span className="text-botanical-accent font-medium">{post.subcategory}</span>
             <span>&bull;</span>
             <span>{post.readingTime}</span>
           </div>
 
-          <h3 className="font-serif text-xl font-medium text-cream-200 group-hover:text-warm-accent transition-colors line-clamp-2 leading-tight">
+          <h3 className="font-serif text-[1.3rem] font-medium text-cream-200 group-hover:text-warm-accent transition-colors line-clamp-2 leading-[1.18]">
             <Link href={`/blog/${post.slug}`}>
               {post.title}
             </Link>
           </h3>
 
-          <p className="mt-3 text-xs sm:text-sm text-botanical-muted line-clamp-2 leading-relaxed font-sans">
+          <p className="mt-3 text-[13px] sm:text-sm text-botanical-muted line-clamp-3 leading-relaxed font-sans">
             {post.description}
           </p>
           {post.tags.length > 0 && (

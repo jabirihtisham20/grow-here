@@ -159,19 +159,19 @@ export async function ArticlePage({ params }: ArticlePageProps) {
         </nav>
 
         {/* Category & Subcategory Badge */}
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-forest-850 border border-forest-700/80 text-[11px] uppercase tracking-[0.2em] font-semibold text-botanical-accent mb-4">
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-forest-850 border border-forest-700/80 text-[11px] uppercase tracking-[0.2em] font-semibold text-botanical-accent mb-5">
           <span>{categoryName}</span>
           <span>&bull;</span>
           <span className="text-warm-accent">{post.subcategory}</span>
         </div>
 
         {/* Semantic H1 Title */}
-        <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-cream-100 tracking-tight leading-[1.12] mb-6">
+        <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-normal text-cream-100 tracking-tight leading-[1.04] mb-6">
           {post.title}
         </h1>
 
         {/* Short introduction / deck */}
-        <p className="text-lg sm:text-xl text-botanical-muted leading-relaxed font-sans mb-8">
+        <p className="text-lg sm:text-xl text-botanical-muted leading-relaxed font-sans mb-9 max-w-3xl">
           {post.description}
         </p>
 
@@ -210,7 +210,7 @@ export async function ArticlePage({ params }: ArticlePageProps) {
 
       {/* Hero Image */}
       {post.image && <Container size="default" className="my-10">
-        <div className="relative aspect-[16/9] max-h-[580px] rounded-3xl overflow-hidden border border-forest-750 bg-forest-850 shadow-2xl">
+        <div className="relative aspect-[16/9] max-h-[640px] rounded-[1.4rem] overflow-hidden border border-forest-750 bg-forest-850 shadow-2xl">
           <Image
             src={post.image}
             alt={post.imageAlt}

@@ -59,8 +59,8 @@ export function Header({ searchIndex }: HeaderProps = {}) {
       <header
         className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
           isScrolled
-            ? 'bg-forest-950/85 backdrop-blur-md border-b border-forest-800/80 py-3 shadow-lg'
-            : 'bg-transparent py-5'
+          ? 'bg-forest-950/95 backdrop-blur-xl border-b border-forest-800/80 py-2.5 shadow-lg'
+            : 'bg-gradient-to-b from-forest-950/80 to-transparent py-4'
         }`}
       >
         <Container>
@@ -74,7 +74,7 @@ export function Header({ searchIndex }: HeaderProps = {}) {
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center gap-7" aria-label="Main navigation">
+            <nav className="hidden xl:flex items-center gap-5" aria-label="Main navigation">
               {navLinks.map((link) => {
                 const isActive =
                   link.href === '/'
@@ -84,7 +84,7 @@ export function Header({ searchIndex }: HeaderProps = {}) {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`text-sm font-sans tracking-wide transition-colors relative py-1 ${
+                    className={`text-[12px] font-sans tracking-wide transition-colors relative py-2 ${
                       isActive
                         ? 'text-warm-accent font-medium'
                         : 'text-cream-400 hover:text-warm-accent'
@@ -110,19 +110,19 @@ export function Header({ searchIndex }: HeaderProps = {}) {
                 <Search className="w-4 h-4" />
               </button>
 
-              <a
-                href="#newsletter"
+              <Link
+                href="/#newsletter"
                 className="hidden sm:inline-flex items-center px-4 py-2 rounded-full bg-warm-accent text-forest-950 text-xs font-semibold uppercase tracking-wider hover:bg-warm-gold hover:shadow-md transition-all duration-200 transform hover:-translate-y-0.5"
               >
                 Join Grow Here
-              </a>
+              </Link>
 
               {/* Mobile menu trigger */}
               <button
                 type="button"
                 onClick={() => setIsMobileMenuOpen(true)}
                 aria-label="Open mobile menu"
-                className="md:hidden p-2 rounded-lg text-cream-400 hover:text-cream-200 hover:bg-forest-800/60 transition-colors"
+                className="xl:hidden p-2.5 rounded-lg text-cream-400 hover:text-cream-200 hover:bg-forest-800/60 transition-colors"
               >
                 <Menu className="w-6 h-6" />
               </button>
